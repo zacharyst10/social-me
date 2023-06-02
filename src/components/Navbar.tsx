@@ -3,8 +3,8 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-lg">
-      <div className="container mx-auto px-6 py-3">
+    <nav className="bg-white shadow-lg sticky top-0 z-50">
+      <div className="container mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <img
