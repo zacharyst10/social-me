@@ -8,7 +8,7 @@ const Hero = () => {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./nature_3.jpeg"
+            src="./arches.jpg"
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -16,21 +16,15 @@ const Hero = () => {
             What We Do
           </h1>
           <p className="mb-8 leading-relaxed">
-            We go to where our community needs us most. We are a mobile therapy
-            office designed to help youth and adults triumph over their anxiety.
-            Our offices are located inside our custom built buses. What's even
-            better is that our offices can expand into the environment in which
-            you are located. That’s right no more hoping to get an appointment
-            at a far-off clinic. We bring the therapy to you, to the comfort and
-            familiarity of your own neighborhood, right at your doorstep. We
-            understand that every person is unique, and their therapy should be
-            too. That's why our state-of-the-art, mobile therapy offices are
-            equipped with the latest therapeutic tools and technologies to
-            personalize each session to your specific needs. Whether it's
-            Cognitive Behavioral Therapy (CBT), mindfulness practices, or a
-            simple supportive chat, our highly-trained and compassionate
-            therapists are ready to guide you on your journey towards a
-            healthier mental state.
+            We bring therapy to your doorstep. Our mobile therapy offices,
+            housed in custom-built buses, cater to both youth and adults
+            combating anxiety. Our offices adapt to your surroundings,
+            eliminating the need for travel to distant clinics. Our
+            well-equipped spaces and highly trained therapists tailor each
+            session to your unique needs, from Cognitive Behavioral Therapy
+            (CBT) to mindfulness practices. We're local, we're mobile, and we're
+            dedicated to guiding you on your journey to a healthier mental
+            state.
           </p>
         </div>
       </div>
