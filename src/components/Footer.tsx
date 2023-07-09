@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-scroll";
 
 const Footer = () => {
-  // make 2023 label from current year
   const currentYear = new Date().getFullYear();
   return (
     <footer className="text-gray-600 body-font">
