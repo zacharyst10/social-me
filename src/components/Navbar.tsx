@@ -1,6 +1,3 @@
-import React from "react";
-import { Link } from "react-scroll";
-
 const Navbar = () => {
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50">
