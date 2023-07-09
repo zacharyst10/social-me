@@ -7,16 +7,15 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <img
-              className="h-8 w-auto mr-4"
-              src="./social_me_logo.png"
-              alt="Logo"
-            />
             <a
               className="text-gray-800 text-lg font-bold hover:text-gray-700"
               href="#"
             >
-              SocialMe
+              <img
+                className="h-8 w-auto mx-4"
+                src="./social_me_icon_lg.png"
+                alt="Logo"
+              />
             </a>
           </div>
           <div className="flex items-center">
@@ -33,7 +32,7 @@ const Navbar = () => {
               How We Help
             </a>
             <a
-              href="#pricing"
+              href="#poop"
               className="text-gray-500 hover:text-gray-900 mx-3 cursor-pointer"
             >
               Who We Are
