@@ -17,12 +17,12 @@ const Contact = () => {
             Reaching out can be difficult, but we're here to help!
           </p>
           <p>How would you like to contact us?</p>
-          <span className="isolate inline-flex rounded-md mx-auto mt-5 shadow-sm">
+          <span className="isolate inline-flex rounded-md mx-auto mt-10 shadow-sm">
             <button
               type="button"
               onClick={() => handleContactMethodChange("email")}
-              className={`relative inline-flex items-center rounded-l-md px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-200 focus:z-10 ${
-                contactMethod === "email" ? "bg-gray-200" : "bg-white"
+              className={`relative text-xl inline-flex items-center rounded-l-md px-3 py-2  font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-custom-blue focus:z-10 ${
+                contactMethod === "email" ? "bg-custom-blue" : "bg-white"
               }`}
             >
               Email
@@ -30,8 +30,8 @@ const Contact = () => {
             <button
               type="button"
               onClick={() => handleContactMethodChange("call")}
-              className={`relative -ml-px inline-flex items-center rounded-r-md px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-200 focus:z-10 ${
-                contactMethod === "call" ? "bg-gray-200" : "bg-white"
+              className={`relative -ml-px text-xl inline-flex items-center rounded-r-md px-3 py-2  font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-custom-blue focus:z-10 ${
+                contactMethod === "call" ? "bg-custom-blue" : "bg-white"
               }`}
             >
               Call
@@ -98,7 +98,7 @@ const Contact = () => {
               <div className="p-2 w-full">
                 <button
                   type="submit"
-                  className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                  className="flex mx-auto text-black bg-custom-blue border-0 py-2 px-8 focus:outline-none hover:bg-hover-blue rounded text-lg"
                 >
                   Send Message
                 </button>
