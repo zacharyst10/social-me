@@ -1,10 +1,10 @@
-import React from "react";
+//make this more stateful, add in a button that toggles from send a form to call us and dislays the appropriate format
 
 const Contact = () => {
   return (
     <section className="text-gray-600 body-font relative">
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-20">
+        <div className="flex flex-col text-center w-full mb-10">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
             Contact Us
           </h1>
@@ -76,6 +76,29 @@ const Contact = () => {
               </button>
             </div>
           </div>
+          <div className="text-center mt-10">
+            <p>
+              We invite you to contact us to speak with a live person about our
+              services. You can reach us at:
+            </p>
+            <p>
+              Phone:
+              <a className="text-blue-500 mx-1" href="tel:+13853231880">
+                385–323–1880
+              </a>
+            </p>
+            <p>We're available during the following business hours:</p>
+            <p>Hours: Monday - Friday: 8am - 5pm MST</p>
+          </div>
+          <p className="mt-5 text-black text-xs">
+            * Please be aware that Social ME is NOT a crisis mobile unit. We
+            value your mental health and well-being greatly. However, we are not
+            equipped to handle mental health emergencies. If you or a loved one
+            is experiencing a mental health crisis, we strongly advise you to
+            call 911 or visit your nearest emergency room immediately. Our
+            services should not be used as a substitute for emergency medical
+            care.
+          </p>
         </form>
       </div>
     </section>

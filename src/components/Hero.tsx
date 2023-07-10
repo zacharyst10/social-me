@@ -21,10 +21,22 @@ const Hero = () => {
             combating anxiety. Our offices adapt to your surroundings,
             eliminating the need for travel to distant clinics. Our
             well-equipped spaces and highly trained therapists tailor each
-            session to your unique needs, from Cognitive Behavioral Therapy
-            (CBT) to mindfulness practices. We're local, we're mobile, and we're
-            dedicated to guiding you on your journey to a healthier mental
-            state.
+            session to your unique needs, combining the power of Cognitive
+            Behavioral Therapy (CBT) and Dialectical Behavior Therapy (DBT). By
+            integrating CBT and DBT treatment modalities, we ensure that both
+            acceptance and change are equally present to create a balanced
+            approach to healing. From developing coping skills and challenging
+            negative thought patterns through CBT to cultivating mindfulness and
+            emotional regulation through DBT, we're committed to guiding you on
+            your journey to a healthier mental state
+          </p>
+          <p className="leading-relaxed">
+            Experience therapy that is truly 'so me' - personalized, empowering,
+            and designed around your individual needs. Introducing SoME (Social
+            ME) therapy, a transformative approach that explores the power of
+            authentic connections, fosters personal growth, and guides you
+            towards a healthier mental state, so you can rediscover what it
+            means to feel 'so me' again.
           </p>
         </div>
       </div>
