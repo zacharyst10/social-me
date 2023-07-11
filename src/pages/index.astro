@@ -1,6 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import OtherFeatures from '../components/OtherFeatures';
@@ -11,7 +10,7 @@ import Footer from "../components/Footer";
 
 <Layout title="Social Me">
 	<main>
-		<Navbar />
+		<Navbar client:load />
 		<div id="hero" />
 		<Hero />
 		<div id="features" />

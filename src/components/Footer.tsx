@@ -12,7 +12,7 @@ const Footer = () => {
         >
           <img
             className="h-8 w-auto mr-4"
-            src="./social_me_logo.png"
+            src="./social_me_circle.png"
             alt="Logo"
           />
           <span className="ml-3 text-xl">SocialMe</span>
