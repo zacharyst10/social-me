@@ -10,7 +10,7 @@ const Navbar = () => {
             <Link
               to="WhatWeDo"
               smooth={true}
-              duration={500}
+              duration={300}
               className="text-gray-800 text-lg font-bold hover:text-gray-700 cursor-pointer"
             >
               <img
@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link
               to="WhatWeDo"
               smooth={true}
-              duration={500}
+              duration={300}
               className="text-gray-500 hover:text-custom-orange mx-3 cursor-pointer"
             >
               What We Do
@@ -32,7 +32,7 @@ const Navbar = () => {
             <Link
               to="HowWeHelp"
               smooth={true}
-              duration={500}
+              duration={300}
               className="text-gray-500 hover:text-custom-orange mx-3 cursor-pointer"
             >
               How We Help
@@ -40,7 +40,7 @@ const Navbar = () => {
             <Link
               to="WhoWeAre"
               smooth={true}
-              duration={500}
+              duration={300}
               className="text-gray-500 hover:text-custom-orange mx-3 cursor-pointer"
             >
               Who We Are

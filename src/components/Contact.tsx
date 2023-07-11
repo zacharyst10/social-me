@@ -21,8 +21,10 @@ const Contact = () => {
             <button
               type="button"
               onClick={() => handleContactMethodChange("email")}
-              className={`relative text-xl inline-flex items-center rounded-l-md px-3 py-2  font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-custom-blue focus:z-10 ${
-                contactMethod === "email" ? "bg-custom-blue" : "bg-white"
+              className={`relative text-xl inline-flex items-center rounded-l-md px-3 py-2  text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-200 hover:text-custom-orange focus:z-10 ${
+                contactMethod === "email"
+                  ? "bg-gray-200 text-custom-orange"
+                  : "bg-white"
               }`}
             >
               Email
@@ -30,8 +32,10 @@ const Contact = () => {
             <button
               type="button"
               onClick={() => handleContactMethodChange("call")}
-              className={`relative -ml-px text-xl inline-flex items-center rounded-r-md px-3 py-2  font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-custom-blue focus:z-10 ${
-                contactMethod === "call" ? "bg-custom-blue" : "bg-white"
+              className={`relative -ml-px text-xl inline-flex items-center rounded-r-md px-3 py-2  text-gray-900 ring-1 ring-inset ring-gray-300 hover:text-custom-orange hover:bg-gray-200 focus:z-10 ${
+                contactMethod === "call"
+                  ? "bg-gray-200 text-custom-orange"
+                  : "bg-white"
               }`}
             >
               Call
