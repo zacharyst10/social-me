@@ -44,7 +44,7 @@ const HowWeHelp = () => {
               </div>
             </div>
             <div className="sm:w-1/3 text-center sm:py-8">
-              <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
+              <div className="w-20 h-20 rounded-full inline-flex items-center mt-5 justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
                 <svg
                   width="50"
                   height="50"
@@ -61,7 +61,7 @@ const HowWeHelp = () => {
                 </svg>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-bold mb-3">
+                <h2 className="text-gray-900 text-lg  title-font font-bold mb-3">
                   Personalized Therapy Sessions
                 </h2>
                 <p className="leading-relaxed text-base">
@@ -73,7 +73,7 @@ const HowWeHelp = () => {
                 </p>
               </div>
             </div>
-            <div className="sm:w-1/3 text-center sm:pl-8 sm:py-8">
+            <div className="sm:w-1/3 mt-5 text-center sm:pl-8 sm:py-8">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
                 <svg
                   width="50"

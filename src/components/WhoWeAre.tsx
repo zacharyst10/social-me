@@ -44,7 +44,7 @@ const WhoWeAre = () => {
               </div>
             </div>
             <div className="sm:w-1/3 text-center sm:pl-8 sm:py-8">
-              <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
+              <div className="w-20 h-20 mt-5 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -58,7 +58,7 @@ const WhoWeAre = () => {
                 </svg>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-bold mb-3">
+                <h2 className="text-gray-900 text-lg  title-font font-bold mb-3">
                   Leadership and Results
                 </h2>
                 <p className="leading-relaxed text-base">

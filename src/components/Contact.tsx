@@ -115,7 +115,7 @@ const Contact = () => {
                 <p>Want to talk to a person? Give us a call!</p>
                 <p>
                   Phone:
-                  <a className="text-blue-500 mx-1" href="tel:+13853231880">
+                  <a className="text-custom-blue mx-1" href="tel:+13853231880">
                     385–323–1880
                   </a>
                 </p>
