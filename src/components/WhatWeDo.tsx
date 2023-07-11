@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = () => {
+const WhatWeDo = () => {
   return (
     <section className="bg-gray-100">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -49,4 +49,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default WhatWeDo;

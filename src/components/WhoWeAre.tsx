@@ -1,6 +1,6 @@
 import React from "react";
 
-const MainFeatures = () => {
+const WhoWeAre = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-col">
@@ -77,4 +77,4 @@ const MainFeatures = () => {
   );
 };
 
-export default MainFeatures;
+export default WhoWeAre;

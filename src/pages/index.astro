@@ -1,22 +1,22 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import OtherFeatures from '../components/OtherFeatures';
-import MainFeatures from  '../components/MainFeatures';
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import WhatWeDo from '../components/WhatWeDo';
+import HowWeHelp from '../components/HowWeHelp';
+import WhoWeAre from '../components/WhoWeAre';
 ---
 
 <Layout title="Social Me">
 	<main>
 		<Navbar client:load />
 		<div id="hero" />
-		<Hero />
+		<WhatWeDo />
 		<div id="features" />
-		<OtherFeatures client:load/>
+		<HowWeHelp client:load/>
 		<div id="poop" />
-		<MainFeatures client:load/>
+		<WhoWeAre client:load/>
 		<div id="contact" />
 		<Contact client:load />
 		<Footer client:load />
