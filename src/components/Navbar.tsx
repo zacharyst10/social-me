@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link
-              to="hero"
+              to="WhatWeDo"
               smooth={true}
               duration={500}
               className="text-gray-800 text-lg font-bold hover:text-gray-700 cursor-pointer"
@@ -22,7 +22,7 @@ const Navbar = () => {
           </div>
           <div className="flex items-center">
             <Link
-              to="hero"
+              to="WhatWeDo"
               smooth={true}
               duration={500}
               className="text-gray-500 hover:text-custom-orange mx-3 cursor-pointer"
@@ -30,7 +30,7 @@ const Navbar = () => {
               What We Do
             </Link>
             <Link
-              to="features"
+              to="HowWeHelp"
               smooth={true}
               duration={500}
               className="text-gray-500 hover:text-custom-orange mx-3 cursor-pointer"
@@ -38,7 +38,7 @@ const Navbar = () => {
               How We Help
             </Link>
             <Link
-              to="poop"
+              to="WhoWeAre"
               smooth={true}
               duration={500}
               className="text-gray-500 hover:text-custom-orange mx-3 cursor-pointer"
@@ -46,7 +46,7 @@ const Navbar = () => {
               Who We Are
             </Link>
             <Link
-              to="contact"
+              to="Contact"
               smooth={true}
               duration={500}
               className="text-gray-500 hover:text-custom-orange mx-3 cursor-pointer"
