@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -8,8 +8,33 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const node = useRef();
+
+  const useOnClickOutside = (ref, handler) => {
+    useEffect(() => {
+      const listener = (event) => {
+        if (!ref.current || ref.current.contains(event.target)) {
+          return;
+        }
+        handler(event);
+      };
+      document.addEventListener("mousedown", listener);
+      document.addEventListener("touchstart", listener);
+      return () => {
+        document.removeEventListener("mousedown", listener);
+        document.removeEventListener("touchstart", listener);
+      };
+    }, [ref, handler]);
+  };
+
+  useOnClickOutside(node, () => setIsMenuOpen(false));
+
+  // rest of your code...
   return (
-    <nav className="bg-white shadow-lg px-10 sticky top-0 z-50 border-gray-200 dark:bg-gray-900">
+    <nav
+      ref={node}
+      className="bg-white shadow-lg px-10 sticky top-0 z-50 border-gray-200 dark:bg-gray-900"
+    >
       <div className=" flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           className="flex items-center"
@@ -92,6 +117,7 @@ const Navbar = () => {
                 to="Contact"
                 smooth={true}
                 duration={300}
+                onClick={handleToggle}
                 className="block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-orange md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Contact
