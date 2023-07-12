@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Contact = () => {
-  const [contactMethod, setContactMethod] = useState(null);
+  const [contactMethod, setContactMethod] = useState("email");
 
   const handleContactMethodChange = (method: string) => {
     setContactMethod(method);

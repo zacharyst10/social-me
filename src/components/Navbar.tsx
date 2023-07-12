@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-lg sticky top-0 z-50 border-gray-200 dark:bg-gray-900">
+    <nav className="bg-white shadow-lg px-10 sticky top-0 z-50 border-gray-200 dark:bg-gray-900">
       <div className=" flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           className="flex items-center"
