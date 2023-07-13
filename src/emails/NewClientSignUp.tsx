@@ -57,9 +57,7 @@ export const NewClientSignUpEmail = ({
               </Row>
             </Section>
             <Section className="text-center mt-[32px] mb-[32px]"></Section>
-            <Text className="text-black text-[14px] leading-[24px]">
-              or copy and paste this URL into your browser:{" "}
-            </Text>
+            <Text className="text-black text-[14px] leading-[24px]"></Text>
             <Hr className="border border-solid border-[#eaeaea] my-[26px] mx-0 w-full" />
             <Text className="text-[#666666] text-[12px] leading-[24px]">
               This message is intended solely for the use of the individual or
