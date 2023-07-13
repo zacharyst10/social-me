@@ -1,11 +1,25 @@
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 
 const Contact = () => {
   const [contactMethod, setContactMethod] = useState("email");
+  const [responseMessage, setResponseMessage] = useState("");
 
   const handleContactMethodChange = (method: string) => {
     setContactMethod(method);
   };
+
+  async function submit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const formData = new FormData(e.target as HTMLFormElement);
+    const response = await fetch("/api/send-email", {
+      method: "POST",
+      body: formData,
+    });
+    const data = await response.json();
+    if (data.message) {
+      setResponseMessage(data.message);
+    }
+  }
   return (
     <section className="text-gray-600 body-font relative">
       <div className="container px-5 py-24 mx-auto">
@@ -44,6 +58,7 @@ const Contact = () => {
         </div>
 
         <form
+          onSubmit={submit}
           name="contact"
           method="POST"
           data-netlify="true"
@@ -66,6 +81,7 @@ const Contact = () => {
                     name="name"
                     className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
+                  {responseMessage && <p>{responseMessage}</p>}
                 </div>
               </div>
               <div className="p-2 w-full">
@@ -82,6 +98,7 @@ const Contact = () => {
                     name="email"
                     className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
+                  {responseMessage && <p>{responseMessage}</p>}
                 </div>
               </div>
               <div className="p-2 w-full">
@@ -95,6 +112,7 @@ const Contact = () => {
                   <textarea
                     id="message"
                     name="message"
+                    placeholder="Tell us what's on your mind...(optional)"
                     className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
@@ -106,6 +124,7 @@ const Contact = () => {
                 >
                   Send Message
                 </button>
+                {responseMessage && <p>{responseMessage}</p>}
               </div>
             </div>
           )}

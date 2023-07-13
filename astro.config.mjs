@@ -8,7 +8,7 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   site: 'https://www.friendlyuser.github.io',
   base: "/",
-  integrations: [tailwind(), react()],
+  integrations: [tailwind(), react(),],
   output: "server",
   adapter: vercel()
 });
