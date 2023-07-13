@@ -1,2 +1,2 @@
-import Mail from '../../src/emails/newClientSignUp.tsx';
+import Mail from '../../src/emails/NewClientSignUp.tsx';
 export default Mail;

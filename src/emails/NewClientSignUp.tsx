@@ -32,21 +32,24 @@ export const NewClientSignUpEmail = ({
         <Body className="bg-white my-auto mx-auto font-sans">
           <Container className="border border-solid border-[#eaeaea] rounded my-[40px] mx-auto p-[20px] w-[465px]">
             <Section className="mt-[32px]">
-              <img src="" alt="" />
+              <img
+                src="https://www.someslc.com/social_me_circle.png"
+                alt=""
+                className="h-[100px] w-[100px] flex justify-center mx-auto"
+              />
             </Section>
             <Heading className="text-black text-[24px] font-normal text-center p-0 my-[30px] mx-0">
               New Client Form Submission
             </Heading>
-            <Text className="text-black text-[14px] leading-[24px]"></Text>
-            <Text className="text-black text-[14px] leading-[24px]">
-              <p>
+            <Text className="text-black text-[14px]leading-[24px] ">
+              <p className="ml-16">
                 <strong>Name:</strong> {name}
               </p>
               <p>
-                <strong>Email:</strong> {email}
+                <strong className="ml-16">Email:</strong> {email}
               </p>
               <p>
-                <strong>Message:</strong> {message && <p>{message}</p>}
+                <strong className="ml-16">Message:</strong> {message}
               </p>
             </Text>
             <Section>

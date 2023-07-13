@@ -6,10 +6,12 @@ import Footer from "../components/Footer";
 import WhatWeDo from '../components/WhatWeDo';
 import HowWeHelp from '../components/HowWeHelp';
 import WhoWeAre from '../components/WhoWeAre';
+import {Toaster } from 'react-hot-toast';
 ---
 
 <Layout title="Social Me" >
 	<main>
+		<Toaster position='top-center' client:load/>
 		<Navbar client:load />
 		<div id="WhatWeDo" />
 		<WhatWeDo />

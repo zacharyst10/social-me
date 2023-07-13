@@ -1,8 +1,11 @@
 import { FormEvent, useState } from "react";
+import toast from "react-hot-toast";
+import Loader from "./Loader";
 
 const Contact = () => {
   const [contactMethod, setContactMethod] = useState("email");
   const [responseMessage, setResponseMessage] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleContactMethodChange = (method: string) => {
     setContactMethod(method);
@@ -10,16 +13,68 @@ const Contact = () => {
 
   async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    setLoading(true);
     const formData = new FormData(e.target as HTMLFormElement);
-    const response = await fetch("/api/send-email", {
-      method: "POST",
-      body: formData,
-    });
-    const data = await response.json();
-    if (data.message) {
-      setResponseMessage(data.message);
+
+    const saveSettings = async () => {
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+      if (response.ok) {
+        return data;
+      } else {
+        throw new Error(data.message);
+      }
+    };
+
+    try {
+      await saveSettings();
+      setLoading(false);
+      toast.custom((t) => (
+        <div
+          className={`${
+            t.visible ? "animate-enter" : "animate-leave"
+          } max-w-md w-full bg-white shadow-lg rounded-lg pointer-events-auto flex ring-1 ring-black ring-opacity-5`}
+        >
+          <div className="flex-1 w-0 p-4">
+            <div className="flex items-start">
+              <div className="flex-shrink-0 pt-0.5">
+                <img
+                  className="h-10 w-10 rounded-full"
+                  src="./social_me_circle.png"
+                  alt=""
+                />
+              </div>
+              <div className="ml-3 flex-1">
+                <p className="text-sm font-medium text-gray-900">
+                  👋 Thanks for reaching out!
+                </p>
+                <p className="mt-1 text-sm text-gray-500">
+                  Someone from the Social Me team will be in contact soon!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex border-l border-gray-200">
+            <button
+              onClick={() => toast.remove(t.id)}
+              className="w-full border border-transparent rounded-none rounded-r-lg p-4 flex items-center justify-center text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      ));
+      return null; // Prevent the automatic toast from being created
+    } catch (err) {
+      setLoading(false);
+      toast.error(`Could not send: ${err.message}`);
     }
   }
+
   return (
     <section className="text-gray-600 body-font relative">
       <div className="container px-5 py-24 mx-auto">
@@ -116,15 +171,16 @@ const Contact = () => {
                     className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
+                {responseMessage && <p>{responseMessage}</p>}
               </div>
               <div className="p-2 w-full">
                 <button
                   type="submit"
+                  disabled={loading}
                   className="flex mx-auto text-black bg-custom-blue border-0 py-2 px-8 focus:outline-none hover:bg-hover-blue rounded text-lg"
                 >
-                  Send Message
+                  {loading ? <Loader /> : "Send Message"}
                 </button>
-                {responseMessage && <p>{responseMessage}</p>}
               </div>
             </div>
           )}
