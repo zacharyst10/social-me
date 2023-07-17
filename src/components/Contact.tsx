@@ -6,6 +6,9 @@ const Contact = () => {
   const [contactMethod, setContactMethod] = useState("email");
   const [responseMessage, setResponseMessage] = useState("");
   const [loading, setLoading] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleContactMethodChange = (method: string) => {
     setContactMethod(method);
@@ -33,6 +36,9 @@ const Contact = () => {
     try {
       await saveSettings();
       setLoading(false);
+      setName("");
+      setEmail("");
+      setMessage("");
       toast.custom((t) => (
         <div
           className={`${
@@ -61,7 +67,7 @@ const Contact = () => {
           <div className="flex border-l border-gray-200">
             <button
               onClick={() => toast.remove(t.id)}
-              className="w-full border border-transparent rounded-none rounded-r-lg p-4 flex items-center justify-center text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full border border-transparent rounded-none rounded-r-lg p-4 flex items-center justify-center text-sm font-medium text-custom-blue hover:text-hover-blue focus:outline-none focus:ring-2 focus:ring-custom-blue"
             >
               Close
             </button>
@@ -134,6 +140,8 @@ const Contact = () => {
                     type="text"
                     id="name"
                     name="name"
+                    value={name} // controlled input
+                    onChange={(e) => setName(e.target.value)} // update state on change
                     className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                   {responseMessage && <p>{responseMessage}</p>}
@@ -151,6 +159,8 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="email"
+                    value={email} // controlled input
+                    onChange={(e) => setEmail(e.target.value)} // update state on change
                     className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                   {responseMessage && <p>{responseMessage}</p>}
@@ -167,6 +177,8 @@ const Contact = () => {
                   <textarea
                     id="message"
                     name="message"
+                    value={message} // controlled input
+                    onChange={(e) => setMessage(e.target.value)} // update state on change
                     placeholder="Tell us what's on your mind...(optional)"
                     className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>

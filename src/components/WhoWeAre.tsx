@@ -9,17 +9,7 @@ const WhoWeAre = () => {
           <div className="flex flex-col sm:flex-row mt-10">
             <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-10 h-10"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
+                <img src="./PlantSun.svg" alt="Plant Sun" />
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-bold mb-3">
@@ -44,18 +34,8 @@ const WhoWeAre = () => {
               </div>
             </div>
             <div className="sm:w-1/3 text-center sm:pl-8 sm:py-8">
-              <div className="w-20 h-20 mt-5 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-10 h-10"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
+              <div className="w-16 h-16 mt-5 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
+                <img src="./SunFlower.svg" alt="Sun Flower" />
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg  title-font font-bold mb-3">

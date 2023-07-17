@@ -123,6 +123,21 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
+            <li className="flex justify-center text-center">
+              <p className="flex justify-center ml-10">
+                <img
+                  src="./phone.png"
+                  alt="phone icon"
+                  className="w-6 h-6 mr-1 flex justify-center"
+                />
+                <a
+                  className="text-custom-blue mx-1 flex justify-center"
+                  href="tel:+13853231880"
+                >
+                  385–323–1880
+                </a>
+              </p>
+            </li>
           </ul>
         </div>
       </div>

@@ -41,7 +41,7 @@ export const post: APIRoute = async ({ request }) => {
     const response = await resend.emails.send({
       from: "Acme <onboarding@resend.dev>",
       to: "stout.zachary@gmail.com",
-      subject: "Hello world",
+      subject: "New client sign up!",
       react: NewClientSignUpEmail({ name, email, message }),
     });
     return new Response(
