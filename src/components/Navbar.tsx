@@ -35,7 +35,7 @@ const Navbar = () => {
       ref={node}
       className="bg-white shadow-lg px-10 sticky top-0 z-50 border-gray-200 dark:bg-gray-900"
     >
-      <div className=" flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           className="flex items-center"
           to="WhatWeDo"
@@ -48,10 +48,20 @@ const Navbar = () => {
             alt="Logo"
           />
         </Link>
+        <div className="lg:hidden flex items-center">
+          <img
+            src="./phone.png"
+            alt="phone icon"
+            className="w-6 h-6 mr-1 justify-center"
+          />
+          <a className="text-custom-blue mx-1 " href="tel:+13853231880">
+            385–323–1880
+          </a>
+        </div>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar-default"
           aria-expanded="false"
           onClick={handleToggle}
@@ -73,17 +83,18 @@ const Navbar = () => {
             />
           </svg>
         </button>
+
         <div
-          className={`${isMenuOpen ? "" : "hidden"} w-full md:block md:w-auto`}
+          className={`${isMenuOpen ? "" : "hidden"} w-full lg:block lg:w-auto`}
           id="navbar-default"
         >
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="font-medium flex flex-col p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <Link
                 to="WhatWeDo"
                 smooth={true}
                 duration={300}
-                className="block py-2 pl-3 pr-4 text-gray-500 hover:bg-gray-100 md:hover:bg-transparent   cursor-pointer rounded md:bg-transparent hover:text-custom-orange md:p-0 dark:text-white md:dark:text-blue-500"
+                className="block py-2 pl-3 pr-4 text-gray-500 hover:bg-gray-100 lg:hover:bg-transparent cursor-pointer rounded lg:bg-transparent hover:text-custom-orange lg:p-0 dark:text-white lg:dark:text-blue-500"
                 aria-current="page"
                 onClick={handleToggle}
               >
@@ -96,7 +107,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={300}
                 onClick={handleToggle}
-                className="block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-orange md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
               >
                 How We Help
               </Link>
@@ -107,7 +118,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={300}
                 onClick={handleToggle}
-                className="block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-orange md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
               >
                 Who We Are
               </Link>
@@ -118,22 +129,19 @@ const Navbar = () => {
                 smooth={true}
                 duration={300}
                 onClick={handleToggle}
-                className="block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-orange md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
               >
                 Contact
               </Link>
             </li>
-            <li className="flex justify-center text-center">
-              <p className="flex justify-center ml-10">
+            <li className="lg:flex hidden sm:py-2 sm:pl-3 lg:py-0 lg:pl-0">
+              <p className="flex xl:ml-10">
                 <img
                   src="./phone.png"
                   alt="phone icon"
                   className="w-6 h-6 mr-1 flex justify-center"
                 />
-                <a
-                  className="text-custom-blue mx-1 flex justify-center"
-                  href="tel:+13853231880"
-                >
+                <a className="text-custom-blue mx-1 " href="tel:+13853231880">
                   385–323–1880
                 </a>
               </p>

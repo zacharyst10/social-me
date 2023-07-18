@@ -16,7 +16,7 @@ const HowWeHelp = () => {
           <div className="flex flex-col sm:flex-row lg:mt-10">
             <div className="sm:w-1/3 text-center sm:pr-8 sm:mb-8 lg:py-8">
               <div className="w-20 h-20 rounded-full inline-flex items-center mt-5  justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
-                <img src="./MountainSunOrange.svg" alt="Orange Flower" />
+                <img src="./MountainWindOrange.svg" alt="Orange Flower" />
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-bold mb-3">
@@ -49,7 +49,7 @@ const HowWeHelp = () => {
             </div>
             <div className="sm:w-1/3  text-center sm:pl-8 lg:py-8">
               <div className="w-20 h-20 rounded-full inline-flex items-center mt-5 justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
-                <img src="./MountainWindOrange.svg" alt="Green Tree" />
+                <img src="./MountainSunOrange.svg" alt="Green Tree" />
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-bold mb-3">
