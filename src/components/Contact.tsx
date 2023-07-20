@@ -179,7 +179,7 @@ const Contact = () => {
                     name="message"
                     value={message} // controlled input
                     onChange={(e) => setMessage(e.target.value)} // update state on change
-                    placeholder="Tell us what's on your mind...(optional)"
+                    placeholder="Tell us how we can help!"
                     className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
