@@ -43,7 +43,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href="https:google.com"
+            href="https://www.instagram.com/socialmeslc/"
             rel="noopener noreferrer"
             className="text-gray-600 ml-1 text-center"
             target="_blank"
