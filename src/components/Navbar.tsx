@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <nav
       ref={node}
-      className="bg-white shadow-lg px-10 sticky top-0 z-50 border-gray-200 dark:bg-gray-900"
+      className="bg-white shadow-lg md:px-10 sm:px-0 sticky top-0 z-50 border-gray-200 dark:bg-gray-900"
     >
       <div className="flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
@@ -43,7 +43,7 @@ const Navbar = () => {
           duration={300}
         >
           <img
-            className="h-16 w-auto mx-5 cursor-pointer"
+            className="h-16 w-auto lg:mx-5 sm:px-0 cursor-pointer"
             src="./social_me_circle.png"
             alt="Logo"
           />
