@@ -37,7 +37,7 @@ const Hero = () => {
             obsessive-compulsive spectrum disorder <br /> - Families with young
             children <br /> - Members of rural communities <br /> -and more!
           </p>
-          <Link to="Contact" smooth={true} duration={300}>
+          <Link to="Contact" smooth={true} duration={500}>
             <button
               type="submit"
               className="flex mx-auto text-black bg-custom-blue border-0 py-2 px-8 focus:outline-none hover:bg-hover-blue rounded text-lg"

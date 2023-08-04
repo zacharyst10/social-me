@@ -36,6 +36,7 @@ const Navbar = () => {
     >
       <div className="flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
+          href="/"
           className="flex items-center"
           to="Hero"
           smooth={true}
@@ -104,29 +105,26 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link
-                to="HowWeHelp"
-                smooth={true}
-                duration={300}
+              <a
+                href="/HowWeHelp"
                 onClick={handleToggle}
                 className="font-source-sans block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
               >
                 How We Help
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="WhoWeAre"
-                smooth={true}
-                duration={300}
+              <a
+                href="/WhoWeAre"
                 onClick={handleToggle}
                 className="font-source-sans block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
               >
                 Who We Are
-              </Link>
+              </a>
             </li>
             <li>
               <Link
+                href="/"
                 to="Contact"
                 smooth={true}
                 duration={300}
@@ -147,7 +145,7 @@ const Navbar = () => {
                   className="font-source-sans text-custom-blue mx-1 "
                   href="tel:+13853231880"
                 >
-                  385–323–1880
+                  3853231880
                 </a>
               </p>
             </li>
