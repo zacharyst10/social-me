@@ -94,6 +94,7 @@ const Navbar = () => {
           <ul className="font-medium flex flex-col p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <Link
+                href="/"
                 to="WhatWeDo"
                 smooth={true}
                 duration={300}
@@ -145,7 +146,7 @@ const Navbar = () => {
                   className="font-source-sans text-custom-blue mx-1 "
                   href="tel:+13853231880"
                 >
-                  3853231880
+                  385-323-1880
                 </a>
               </p>
             </li>
