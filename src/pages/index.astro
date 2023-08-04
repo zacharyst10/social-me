@@ -7,19 +7,20 @@ import WhatWeDo from '../components/WhatWeDo';
 import HowWeHelp from '../components/HowWeHelp';
 import WhoWeAre from '../components/WhoWeAre';
 import {Toaster } from 'react-hot-toast';
+import Hero from '../components/Hero';
+
 ---
 
 <Layout title="Social Me" >
 	<main>
 		<Toaster position='top-center' client:load/>
+	
 		<Navbar client:load />
+		<Hero client:load />
 		<div id="WhatWeDo" />
 		<WhatWeDo />
 		<div id="HowWeHelp" />
-		<HowWeHelp client:load/>
-		<div id="WhoWeAre" />
-		<WhoWeAre client:load/>
-		<div id="Contact" />
+		
 		<Contact client:load />
 		<Footer client:load />
 	</main>

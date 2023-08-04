@@ -54,7 +54,10 @@ const Navbar = () => {
             alt="phone icon"
             className="w-6 h-6 mr-1 justify-center"
           />
-          <a className="text-custom-blue mx-1 " href="tel:+13853231880">
+          <a
+            className="font-source-sans text-custom-blue mx-1 "
+            href="tel:+13853231880"
+          >
             385–323–1880
           </a>
         </div>
@@ -94,7 +97,7 @@ const Navbar = () => {
                 to="WhatWeDo"
                 smooth={true}
                 duration={300}
-                className="block py-2 pl-3 pr-4 text-gray-500 hover:bg-gray-100 lg:hover:bg-transparent cursor-pointer rounded lg:bg-transparent hover:text-custom-orange lg:p-0 dark:text-white lg:dark:text-blue-500"
+                className="font-source-sans block py-2 pl-3 pr-4 text-gray-500 hover:bg-gray-100 lg:hover:bg-transparent cursor-pointer rounded lg:bg-transparent hover:text-custom-orange lg:p-0 dark:text-white lg:dark:text-blue-500"
                 aria-current="page"
                 onClick={handleToggle}
               >
@@ -107,7 +110,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={300}
                 onClick={handleToggle}
-                className="block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+                className="font-source-sans block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
               >
                 How We Help
               </Link>
@@ -118,7 +121,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={300}
                 onClick={handleToggle}
-                className="block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+                className="font-source-sans block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
               >
                 Who We Are
               </Link>
@@ -129,7 +132,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={300}
                 onClick={handleToggle}
-                className="block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+                className="font-source-sans block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
               >
                 Contact
               </Link>
@@ -141,7 +144,10 @@ const Navbar = () => {
                   alt="phone icon"
                   className="w-6 h-6 mr-1 flex justify-center"
                 />
-                <a className="text-custom-blue mx-1 " href="tel:+13853231880">
+                <a
+                  className="font-source-sans text-custom-blue mx-1 "
+                  href="tel:+13853231880"
+                >
                   385–323–1880
                 </a>
               </p>

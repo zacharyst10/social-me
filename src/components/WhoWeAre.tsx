@@ -12,10 +12,10 @@ const WhoWeAre = () => {
                 <img src="./PlantSun.svg" alt="Plant Sun" />
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-bold mb-3">
+                <h2 className="font-banschrift text-gray-900 text-lg title-font font-bold mb-3">
                   Experience and Innovation
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="font-source-sans leading-relaxed text-base">
                   As an Executive Director, my focus is always on you, the
                   client. I've worked tirelessly to expand and refine our
                   services, ensuring we provide the highest quality of care
@@ -38,10 +38,10 @@ const WhoWeAre = () => {
                 <img src="./SunFlower.svg" alt="Sun Flower" />
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg  title-font font-bold mb-3">
+                <h2 className="font-banschrift text-gray-900 text-lg  title-font font-bold mb-3">
                   Leadership and Results
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="font-source-sans leading-relaxed text-base">
                   My dedication to achieving real, impactful results means we
                   constantly evolve our services. Through comprehensive staff
                   training and thoughtful program development, we are better

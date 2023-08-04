@@ -10,7 +10,11 @@ module.exports = {
 				'custom-orange': '#F78100',
 				'custom-blue': '#0EC7E0',
 				'hover-blue': '#0097B9',
-			}
+			},
+			fontFamily: {
+				'banschrift': ['Banschrift-Bold Semi-Condensed', 'sans-serif'],
+				'source-sans': ['Source Sans Variable', 'sans-serif'],
+			  }
 		},
 	},
 	plugins: [

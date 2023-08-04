@@ -17,31 +17,27 @@ const WhatWeDo = () => {
             className="h-36 w-auto my-5 rounded-xl"
             alt="Social Me Icon"
           />
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-            What We Do
+          <h1 className="font-banschrift title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            We Bring Therapy To You
           </h1>
-          <p className="mb-8 leading-relaxed">
-            We bring therapy to your doorstep. Our mobile therapy offices,
-            housed in custom-built buses, cater to both youth and adults
-            combating anxiety. Our offices adapt to your surroundings,
-            eliminating the need for travel to distant clinics. Our
-            well-equipped spaces and highly trained therapists tailor each
-            session to your unique needs, combining the power of Cognitive
-            Behavioral Therapy (CBT) and Dialectical Behavior Therapy (DBT). By
-            integrating CBT and DBT treatment modalities, we ensure that both
-            acceptance and change are equally present to create a balanced
-            approach to healing. From developing coping skills and challenging
-            negative thought patterns through CBT to cultivating mindfulness and
-            emotional regulation through DBT, we're committed to guiding you on
-            your journey to a healthier mental state
+          <p className="font-source-sans mb-8 leading-relaxed">
+            Social Me is a mobile therapy clinic designed to remove treatment
+            roadblocks for both youth and adults who are struggling with anxiety
+            disorders.
           </p>
-          <p className="leading-relaxed">
-            Experience therapy that is truly 'so me' - personalized, empowering,
-            and designed around your individual needs. Introducing SoME (Social
-            ME) therapy, a transformative approach that explores the power of
-            authentic connections, fosters personal growth, and guides you
-            towards a healthier mental state, so you can rediscover what it
-            means to feel 'so me' again.
+          <p className="font-source-sans mb-8 leading-relaxed">
+            Our offices are housed in custom-built buses so that your therapist
+            can truly meet you where you're at.
+          </p>
+          <h1 className="font-banschrift title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            Social Me Mobile Therapy Can Help...
+          </h1>
+          <p className="font-source-sans mb-8 leading-relaxed">
+            - New moms who need to stay close to home <br /> - Individuals who
+            struggle to leave the house due to their severe anxiety or
+            obsessive-compulsive spectrum disorder <br /> - Families with young
+            children <br /> - Members of rural communities <br /> - ... and
+            more!
           </p>
         </div>
       </div>

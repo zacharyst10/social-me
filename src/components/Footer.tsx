@@ -14,7 +14,7 @@ const Footer = () => {
           />
           <span className="ml-3 text-xl">SocialMe</span>
         </a>
-        <p className="text-sm text-gray-500 flex sm:ml-6 sm:mt-0 mt-4">
+        <p className="font-source-sans text-sm text-gray-500 flex sm:ml-6 sm:mt-0 mt-4">
           © {currentYear} SocialMe — Proudly locally owned and operated in
           Taylorsville, Utah 84129.
           <a

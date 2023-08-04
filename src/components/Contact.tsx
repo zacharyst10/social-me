@@ -55,10 +55,10 @@ const Contact = () => {
                 />
               </div>
               <div className="ml-3 flex-1">
-                <p className="text-sm font-medium text-gray-900">
+                <p className="font-source-sans text-sm font-medium text-gray-900">
                   👋 Thanks for reaching out!
                 </p>
-                <p className="mt-1 text-sm text-gray-500">
+                <p className="font-source-sans mt-1 text-sm text-gray-500">
                   Someone from the Social Me team will be in contact soon!
                 </p>
               </div>
@@ -88,15 +88,15 @@ const Contact = () => {
           <div className="lg:w-4/6 mx-auto text-center title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             Contact Us
           </div>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="font-source-sans lg:w-2/3 mx-auto leading-relaxed text-base">
             Reaching out can be difficult, but we're here to help!
           </p>
-          <p>How would you like to contact us?</p>
+          <p className="font-source-sans">How would you like to contact us?</p>
           <span className="isolate inline-flex rounded-md mx-auto mt-10 shadow-sm">
             <button
               type="button"
               onClick={() => handleContactMethodChange("email")}
-              className={`relative text-xl inline-flex items-center rounded-l-md px-3 py-2  text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-200 hover:text-custom-orange focus:z-10 ${
+              className={`font-source-sans relative text-xl inline-flex items-center rounded-l-md px-3 py-2  text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-200 hover:text-custom-orange focus:z-10 ${
                 contactMethod === "email"
                   ? "bg-gray-200 text-custom-orange"
                   : "bg-white"
@@ -107,7 +107,7 @@ const Contact = () => {
             <button
               type="button"
               onClick={() => handleContactMethodChange("call")}
-              className={`relative -ml-px text-xl inline-flex items-center rounded-r-md px-3 py-2  text-gray-900 ring-1 ring-inset ring-gray-300 hover:text-custom-orange hover:bg-gray-200 focus:z-10 ${
+              className={`font-source-sans relative -ml-px text-xl inline-flex items-center rounded-r-md px-3 py-2  text-gray-900 ring-1 ring-inset ring-gray-300 hover:text-custom-orange hover:bg-gray-200 focus:z-10 ${
                 contactMethod === "call"
                   ? "bg-gray-200 text-custom-orange"
                   : "bg-white"
@@ -132,7 +132,7 @@ const Contact = () => {
                 <div className="relative">
                   <label
                     htmlFor="name"
-                    className="leading-7 text-sm text-gray-600"
+                    className="font-source-sans leading-7 text-sm text-gray-600"
                   >
                     Name
                   </label>
@@ -151,7 +151,7 @@ const Contact = () => {
                 <div className="relative">
                   <label
                     htmlFor="email"
-                    className="leading-7 text-sm text-gray-600"
+                    className="font-source-sans leading-7 text-sm text-gray-600"
                   >
                     Email
                   </label>
@@ -170,7 +170,7 @@ const Contact = () => {
                 <div className="relative">
                   <label
                     htmlFor="message"
-                    className="leading-7 text-sm text-gray-600"
+                    className="font-source-sans leading-7 text-sm text-gray-600"
                   >
                     Message
                   </label>
@@ -199,20 +199,27 @@ const Contact = () => {
           <div className="text-center mt-10">
             {contactMethod === "call" && (
               <>
-                <p>Want to talk to a person? Give us a call!</p>
-                <p>
+                <p className="font-source-sans">
+                  Want to talk to a person? Give us a call!
+                </p>
+                <p className="font-source-sans">
                   Phone:
                   <a className="text-custom-blue mx-1" href="tel:+13853231880">
                     385–323–1880
                   </a>
                 </p>
-                <p>We're available during the following business hours:</p>
-                <p> Monday - Friday: 8am - 5pm MST</p>
+                <p className="font-source-sans">
+                  We're available during the following business hours:
+                </p>
+                <p className="font-source-sans">
+                  {" "}
+                  Monday - Friday: 8am - 5pm MST
+                </p>
               </>
             )}
           </div>
 
-          <p className="mt-10 text-black text-xs">
+          <p className="font-source-sans mt-10 text-black text-xs">
             * Please be aware that Social ME is NOT a crisis mobile unit. We
             value your mental health and well-being greatly. However, we are not
             equipped to handle mental health emergencies. If you or a loved one

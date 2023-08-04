@@ -19,10 +19,10 @@ const HowWeHelp = () => {
                 <img src="./MountainWindOrange.svg" alt="Orange Flower" />
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-bold mb-3">
+                <h2 className="font-banschrift text-gray-900 text-lg title-font font-bold mb-3">
                   On-Demand Accessibility
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="font-source-sans leading-relaxed text-base">
                   Our mobile therapy service erases the distance between you and
                   mental health support. Located within your community, our
                   therapy offices in custom-built buses ensure that professional
@@ -35,10 +35,10 @@ const HowWeHelp = () => {
                 <img src="./MountainCloudBlue.svg" alt="Blue Mountain" />
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-bold mb-3">
+                <h2 className="font-banschrift text-gray-900 text-lg title-font font-bold mb-3">
                   Personalized Therapy Sessions
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="font-source-sans leading-relaxed text-base">
                   We believe that therapy should be as unique as you are. Our
                   expert therapists are equipped with a variety of tools and
                   approaches, from Cognitive Behavioral Therapy to mindfulness
@@ -52,10 +52,10 @@ const HowWeHelp = () => {
                 <img src="./MountainSunOrange.svg" alt="Green Tree" />
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-bold mb-3">
+                <h2 className="font-banschrift text-gray-900 text-lg title-font font-bold mb-3">
                   Comfortable Environment
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="font-source-sans leading-relaxed text-base">
                   Traditional therapy often takes place in clinical settings
                   that can feel impersonal or intimidating. Our mobile offices
                   adapt to your surroundings, fostering a more comfortable and
