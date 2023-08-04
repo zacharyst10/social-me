@@ -29,7 +29,6 @@ const Navbar = () => {
 
   useOnClickOutside(node, () => setIsMenuOpen(false));
 
-  // rest of your code...
   return (
     <nav
       ref={node}
@@ -38,7 +37,7 @@ const Navbar = () => {
       <div className="flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           className="flex items-center"
-          to="WhatWeDo"
+          to="Hero"
           smooth={true}
           duration={300}
         >
