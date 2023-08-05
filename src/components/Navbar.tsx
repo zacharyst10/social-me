@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Link } from "react-scroll";
+import { Link, ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -125,7 +125,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/"
+                href="/#Contact"
                 to="Contact"
                 smooth={true}
                 duration={300}
