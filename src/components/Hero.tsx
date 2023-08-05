@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       className="bg-cover bg-center flex items-center"
-      style={{ backgroundImage: `url('./road-compressed.jpg')` }}
+      style={{ backgroundImage: `url('./road.jpg')` }}
     >
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center text-white ">
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

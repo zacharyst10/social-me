@@ -8,7 +8,7 @@ const HowWeDoIt = () => {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./mountain-meadow.jpg"
+            src="./slot-canyon.jpg"
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
