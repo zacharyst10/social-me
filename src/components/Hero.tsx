@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <section
-      className="bg-cover bg-center flex items-center h-screen"
-      style={{ backgroundImage: `url('./windingRoad.jpg')` }}
+      className="bg-cover bg-center flex items-center"
+      style={{ backgroundImage: `url('./road-compressed.jpg')` }}
     >
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center text-white ">
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -35,7 +35,7 @@ const Hero = () => {
             - New moms who need to stay close to home <br /> - Individuals who
             struggle to leave the house due to their severe anxiety or
             obsessive-compulsive spectrum disorder <br /> - Families with young
-            children <br /> - Members of rural communities <br /> -and more!
+            children <br /> - Members of rural communities <br /> -...and more!
           </p>
           <Link to="Contact" smooth={true} duration={500}>
             <button
