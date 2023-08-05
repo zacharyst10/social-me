@@ -35,7 +35,7 @@ const Hero = () => {
             - New moms who need to stay close to home <br /> - Individuals who
             struggle to leave the house due to their severe anxiety or
             obsessive-compulsive spectrum disorder <br /> - Families with young
-            children <br /> - Members of rural communities <br /> -...and more!
+            children <br /> - Members of rural communities <br /> -and more!
           </p>
           <Link to="Contact" smooth={true} duration={500}>
             <button
