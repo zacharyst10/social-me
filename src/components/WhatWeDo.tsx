@@ -28,7 +28,7 @@ const WhatWeDo = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="#F78100"
-                className="w-6 h-6 mr-3 "
+                className="w-6 h-6 mr-3 flex-shrink-0 "
               >
                 <path
                   stroke-linecap="round"
@@ -63,7 +63,7 @@ const WhatWeDo = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="#F78100"
-                className="w-6 h-6 mr-3 "
+                className="w-6 h-6 mr-3 flex-shrink-0 "
               >
                 <path
                   stroke-linecap="round"
@@ -80,7 +80,7 @@ const WhatWeDo = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="#F78100"
-                className="w-6 h-6 mr-3 "
+                className="w-6 h-6 mr-3 flex-shrink-0 "
               >
                 <path
                   stroke-linecap="round"
@@ -97,7 +97,7 @@ const WhatWeDo = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="#F78100"
-                className="w-6 h-6 mr-3 "
+                className="w-6 h-6 mr-3 flex-shrink-0 "
               >
                 <path
                   stroke-linecap="round"

@@ -142,7 +142,7 @@ const Contact = () => {
                     name="name"
                     value={name} // controlled input
                     onChange={(e) => setName(e.target.value)} // update state on change
-                    className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-white rounded border border-gray-300 focus:border-custom-blue focus:ring-2 focus:ring-custom-blue text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                   {responseMessage && <p>{responseMessage}</p>}
                 </div>
@@ -161,7 +161,7 @@ const Contact = () => {
                     name="email"
                     value={email} // controlled input
                     onChange={(e) => setEmail(e.target.value)} // update state on change
-                    className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-white rounded border border-gray-300 focus:border-custom-blue focus:ring-2 focus:ring-custom-blue text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                   {responseMessage && <p>{responseMessage}</p>}
                 </div>
@@ -180,7 +180,7 @@ const Contact = () => {
                     value={message} // controlled input
                     onChange={(e) => setMessage(e.target.value)} // update state on change
                     placeholder="Tell us how we can help!"
-                    className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-white rounded border border-gray-300 focus:border-custom-blue focus:ring-2 focus:ring-custom-blue h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
                 {responseMessage && <p>{responseMessage}</p>}
