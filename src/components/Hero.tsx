@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <section
-      className="bg-cover bg-center flex items-center"
+      className="bg-cover bg-center flex items-center "
       style={{ backgroundImage: `url('./road.jpg')` }}
     >
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center text-white h-screen ">

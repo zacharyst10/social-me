@@ -5,21 +5,22 @@ const WhatWeDo = () => {
     <section className="bg-gray-100">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
-          <h1 className="font-banschrift title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-            We Bring Therapy To You
+          <h1 className="font-banschrift title-font  sm:text-4xl text-3xl mb-10 font-medium text-gray-900">
+            What We Do
           </h1>
           <p className="font-source-sans mb-8 leading-relaxed">
             Social Me is a mobile therapy clinic designed to remove treatment
             roadblocks for both youth and adults who are struggling with anxiety
-            disorders.
+            & obsessive-compulsive disorders.
           </p>
           <p className="font-source-sans mb-8 leading-relaxed">
             Our offices are housed in custom-built buses so that your therapist
             can truly meet you where you're at.
           </p>
-          <h1 className="font-banschrift title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-            Social Me Mobile Therapy Can Help
+          <h1 className="font-banschrift title-font  sm:text-2xl text-3xl mb-7 font-medium text-custom-orange">
+            We bring therapy to...
           </h1>
+
           <p className="font-source-sans mb-8 leading-relaxed">
             <div className="flex pb-5">
               <svg
@@ -36,7 +37,7 @@ const WhatWeDo = () => {
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              New moms who need to stay close to home
+              Youth and adults who want access to innovative and dynamic therapy
             </div>
             <div className="flex pb-5">
               <svg
@@ -53,8 +54,8 @@ const WhatWeDo = () => {
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              Individuals who struggle to leave the house due to their severe
-              anxiety or obsessive-compulsive spectrum disorder
+              Communities that lack access to therapeutic professionals and
+              their services
             </div>
             <div className="flex pb-5">
               <svg
@@ -71,7 +72,7 @@ const WhatWeDo = () => {
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              Families with young children
+              Students K-12 who need treatment integrated into the schooldays
             </div>
             <div className="flex pb-5">
               <svg
@@ -88,7 +89,8 @@ const WhatWeDo = () => {
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              Members of rural communities
+              New or established parents who need additional support throught
+              all phases of perinatal care
             </div>
             <div className="flex pb-5">
               <svg
@@ -105,7 +107,7 @@ const WhatWeDo = () => {
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              and more!
+              Palliative care patients and their families
             </div>
           </p>
         </div>
