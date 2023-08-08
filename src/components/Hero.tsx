@@ -37,7 +37,7 @@ const Hero = () => {
               type="submit"
               className="flex mx-auto text-black bg-custom-blue border-0 py-2 px-8 focus:outline-none hover:bg-hover-blue rounded text-lg"
             >
-              Begin Your Healing Journey
+              Begin Your Mobile Therapy Journey
             </button>
           </Link>
         </div>
