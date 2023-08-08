@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 const HowWeDoIt = () => {
   return (
@@ -7,118 +7,138 @@ const HowWeDoIt = () => {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <img
             className="object-cover object-center rounded"
-            alt="hero"
+            alt="An illustrative image describing 'So ME' therapy"
             src="./slot-canyon.jpg"
           />
         </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-          <h1 className="font-banschrift title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-            What is 'So ME' therapy?
-          </h1>
 
-          <p className="font-source-sans mb-8 leading-relaxed">
-            Good question! Social Me helps our clients experience therapy that's
-            'So ME' by offering interventions that are personalized, empowering,
-            and designed to support your individual needs. This transformative
-            approach fosters personal growth and authentic connections so that
-            you can rediscover what it means to feel 'So ME' again.
-          </p>
-          <h1 className="font-banschrift title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-blue">
-            Customized care that includes...
-          </h1>
-          <div className="font-source-sans mb-8 leading-relaxed">
-            <div className="flex pb-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="#0EC7E0"
-                className="w-6 h-6 mr-3 flex-shrink-0 "
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              CBT-ERP done with you in mind so you can get back to living life
-              your way{" "}
-            </div>
-            <div className="flex pb-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="#0EC7E0"
-                className="w-6 h-6 mr-3 flex-shrink-0 "
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              DBT skills made simple so that life can be more manageable
-            </div>
+        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center ">
+          <header>
+            <h1 className="font-banschrift title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              What is 'So ME' therapy?
+            </h1>
+          </header>
 
-            <div className="flex pb-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="#0EC7E0"
-                className="w-6 h-6 mr-3 flex-shrink-0 "
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              Dynamic, hands-on, real-time exposures with personalized coaching
+          <main>
+            <p className="font-source-sans mb-8 leading-relaxed">
+              Good question! Social Me helps our clients experience therapy
+              that's 'So ME' by offering interventions that are personalized,
+              empowering, and designed to support your individual needs. This
+              transformative approach fosters personal growth and authentic
+              connections so that you can rediscover what it means to feel 'So
+              ME' again.
+            </p>
+
+            <h2 className="font-banschrift title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-blue">
+              Customized care that includes...
+            </h2>
+
+            <div className="font-source-sans mb-8 leading-relaxed">
+              <div className="flex pb-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="#0EC7E0"
+                  className="w-6 h-6 mr-3 flex-shrink-0 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <div className=" text-left">
+                  CBT-ERP done with you in mind so you can get back to living
+                  life your way
+                </div>
+              </div>
+              <div className="flex pb-5 ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="#0EC7E0"
+                  className="w-6 h-6 mr-3 flex-shrink-0 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <div className=" text-left">
+                  DBT skills made simple so that life can be more manageable
+                </div>
+              </div>
+
+              <div className="flex pb-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="#0EC7E0"
+                  className="w-6 h-6 mr-3 flex-shrink-0 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <div className=" text-left">
+                  Dynamic, hands-on, real-time exposures with personalized
+                  coaching
+                </div>
+              </div>
+
+              <div className="flex pb-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="#0EC7E0"
+                  className="w-6 h-6 mr-3 flex-shrink-0 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <div className=" text-left">
+                  Live skills calls and accountability coaching packages
+                  available as needed
+                </div>
+              </div>
+
+              <div className="flex pb-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="#0EC7E0"
+                  className="w-6 h-6 mr-3 flex-shrink-0 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <div className=" text-left">...and more!</div>
+              </div>
             </div>
-            <div className="flex pb-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="#0EC7E0"
-                className="w-6 h-6 mr-3 flex-shrink-0 "
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              Live skills calls and accountability coaching packages available
-              as needed{" "}
-            </div>
-            <div className="flex pb-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="#0EC7E0"
-                className="w-6 h-6 mr-3 flex-shrink-0 "
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              ...and more!
-            </div>
-          </div>
+          </main>
         </div>
       </div>
     </section>
   );
 };
+
 export default HowWeDoIt;

@@ -37,7 +37,10 @@ const WhatWeDo = () => {
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              Youth and adults who want access to innovative and dynamic therapy
+              <div className=" text-left">
+                Youth and adults who want access to innovative and dynamic
+                therapy
+              </div>
             </div>
             <div className="flex pb-5">
               <svg
@@ -54,8 +57,10 @@ const WhatWeDo = () => {
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              Communities that lack access to therapeutic professionals and
-              their services
+              <div className=" text-left">
+                Communities that lack access to therapeutic professionals and
+                their services
+              </div>
             </div>
             <div className="flex pb-5">
               <svg
@@ -72,7 +77,9 @@ const WhatWeDo = () => {
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              Students K-12 who need treatment integrated into the schooldays
+              <div className=" text-left">
+                Students K-12 who need treatment integrated into the schooldays
+              </div>
             </div>
             <div className="flex pb-5">
               <svg
@@ -89,8 +96,10 @@ const WhatWeDo = () => {
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              New or established parents who need additional support throught
-              all phases of perinatal care
+              <div className=" text-left">
+                New or established parents who need additional support throught
+                all phases of perinatal care
+              </div>
             </div>
             <div className="flex pb-5">
               <svg
@@ -107,7 +116,9 @@ const WhatWeDo = () => {
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              Palliative care patients and their families
+              <div className=" text-left">
+                Palliative care patients and their families
+              </div>
             </div>
           </div>
         </div>
