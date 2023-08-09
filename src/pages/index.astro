@@ -7,6 +7,8 @@ import WhatWeDo from '../components/WhatWeDo';
 import {Toaster } from 'react-hot-toast';
 import Hero from '../components/Hero';
 import HowWeDoIt from '../components/HowWeDoIt';
+import WhoWeAre from './WhoWeAre.astro';
+import WhoIsWe from '../components/WhoIsWe';
 
 
 ---
@@ -19,8 +21,9 @@ import HowWeDoIt from '../components/HowWeDoIt';
 		<Hero client:load />
 		<div id="WhatWeDo" />
 		
-		<WhatWeDo client:load />
 		<HowWeDoIt client:load />
+		<WhatWeDo client:load />
+		<WhoIsWe client:load />
 		<div id="Contact" />
 		<Contact client:load />
 		<Footer client:load />

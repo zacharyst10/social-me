@@ -15,7 +15,7 @@ const HowWeDoIt = () => {
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center order-2 md:order-2">
           <header>
             <h1 className="font-banschrift title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              What is 'So ME' therapy?
+              What is 'So ME' mobile therapy?
             </h1>
           </header>
 
@@ -30,7 +30,7 @@ const HowWeDoIt = () => {
             </p>
 
             <h2 className="font-banschrift title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-blue">
-              Customized care that includes...
+              'So ME' care includes...
             </h2>
 
             <div className="font-source-sans mb-8 leading-relaxed">
@@ -70,7 +70,7 @@ const HowWeDoIt = () => {
                   />
                 </svg>
                 <div className=" text-left">
-                  DBT skills made simple so that life can be more manageable
+                  DBT skills made simple so life can feel more manageable
                 </div>
               </div>
 
@@ -111,8 +111,8 @@ const HowWeDoIt = () => {
                   />
                 </svg>
                 <div className=" text-left">
-                  Live skills calls and accountability coaching packages
-                  available as needed
+                  Live skills calls and personalized accountability coaching to
+                  foster real change
                 </div>
               </div>
 

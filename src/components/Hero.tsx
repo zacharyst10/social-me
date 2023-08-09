@@ -14,11 +14,11 @@ const Hero = () => {
             className="h-36 w-auto my-5 rounded-xl"
             alt="Social Me Icon"
           />
-          <p className="font-source-sans mb-8 leading-relaxed font-extrabold">
-            We Bring Therapy To Your Doorstep
+          <p className="font-source-sans mb-8 text-4xl leading-relaxed font-extrabold">
+            Therapy Gone Mobile
           </p>
-          <p className="font-source-sans mb-8 font-light lg:w-1/2 leading-relaxed">
-            Social Me Mobile Therapy uses renovated
+          <p className="font-source-sans mb-8 font-light lg:w-1/2 text-xl leading-relaxed">
+            'So ME' (Social Me) Mobile Therapy uses renovated
             buses-turned-mobile-therapy-offices so that you can get{" "}
             <span className="font-extrabold">
               quality mental health treatment wherever you need it.
@@ -37,7 +37,7 @@ const Hero = () => {
               type="submit"
               className="flex mx-auto text-black bg-custom-blue border-0 py-2 px-8 focus:outline-none hover:bg-hover-blue rounded text-lg"
             >
-              Begin Your Mobile Therapy Journey
+              Begin Your Mobile Therapy Journey Today
             </button>
           </Link>
         </div>
