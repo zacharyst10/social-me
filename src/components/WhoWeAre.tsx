@@ -16,7 +16,7 @@ const WhoIsWe = () => {
                   Experience and Innovation
                 </h2>
                 <p className="font-source-sans leading-relaxed text-base">
-                  As an Executive Director, my focus is always on you, the
+                  As founder of Social Me, my focus is always on you, the
                   client. I've worked tirelessly to expand and refine our
                   services, ensuring we provide the highest quality of care
                   while continuously developing new ways to meet your mental

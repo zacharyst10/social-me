@@ -82,8 +82,8 @@ const WhatIsSoMe = () => {
                   />
                 </svg>
                 <div className=" text-left">
-                  Dynamic, hands-on, real-time exposures with personalized
-                  coaching
+                  Virtual reality, hands-on, and real-time exposures with
+                  personalized coaching
                 </div>
               </div>
 
