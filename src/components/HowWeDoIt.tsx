@@ -1,18 +1,10 @@
 import React from "react";
-
+//
 const HowWeDoIt = () => {
   return (
     <section className="bg-gray-100">
       <div className="container mx-auto flex flex-col-reverse md:flex-row px-10 py-20 items-center">
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 order-1 md:order-1">
-          <img
-            className="object-cover object-center rounded"
-            alt="An illustrative image describing 'So ME' therapy"
-            src="./slot-canyon.jpg"
-          />
-        </div>
-
-        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center order-2 md:order-2">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
           <header>
             <h1 className="font-banschrift title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               What is 'So ME' mobile therapy?
@@ -135,6 +127,13 @@ const HowWeDoIt = () => {
               </div>
             </div>
           </main>
+        </div>
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 ">
+          <img
+            className="object-cover object-center rounded"
+            alt="An illustrative image describing 'So ME' therapy"
+            src="./slot-canyon.jpg"
+          />
         </div>
       </div>
     </section>
