@@ -59,7 +59,7 @@ const Contact = () => {
                   👋 Thanks for reaching out!
                 </p>
                 <p className="font-source-sans mt-1 text-sm text-gray-500">
-                  Someone from the Social Me team will be in contact soon!
+                  Someone from the Social ME team will be in contact soon!
                 </p>
               </div>
             </div>

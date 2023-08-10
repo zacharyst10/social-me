@@ -16,7 +16,7 @@ const WhatWeDo = () => {
             What We Do
           </h1>
           <p className="font-source-sans mb-8 leading-relaxed">
-            Social Me is a mobile therapy clinic designed to remove treatment
+            Social ME is a mobile therapy clinic designed to remove treatment
             roadblocks for both youth and adults who are struggling with anxiety
             & obsessive-compulsive disorders.
           </p>
@@ -110,8 +110,8 @@ const WhatWeDo = () => {
                 />
               </svg>
               <div className=" text-left">
-                Communities that lack access to therapeutic professionals and
-                their services
+                Communities that lack access to mental health professionals and
+                in person therapeutic services
               </div>
             </div>
             <div className="flex pb-5">

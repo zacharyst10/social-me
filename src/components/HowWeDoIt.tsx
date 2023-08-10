@@ -1,13 +1,21 @@
 import React from "react";
-//
-const WhatIsSoMe = () => {
+
+const HowWeDoIt = () => {
   return (
     <section className="bg-gray-100">
       <div className="container mx-auto flex flex-col-reverse md:flex-row px-10 py-20 items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 order-1 md:order-1">
+          <img
+            className="object-cover object-center rounded"
+            alt="An illustrative image describing 'So ME' therapy"
+            src="./slot-canyon.jpg"
+          />
+        </div>
+
+        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center order-2 md:order-2">
           <header>
             <h1 className="font-banschrift title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              What is 'So ME' mobile therapy?
+              What is 'So ME' therapy?
             </h1>
           </header>
 
@@ -22,7 +30,7 @@ const WhatIsSoMe = () => {
             </p>
 
             <h2 className="font-banschrift title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-blue">
-              'So ME' care includes...
+              Customized care that includes...
             </h2>
 
             <div className="font-source-sans mb-8 leading-relaxed">
@@ -62,7 +70,7 @@ const WhatIsSoMe = () => {
                   />
                 </svg>
                 <div className=" text-left">
-                  DBT skills made simple so life can feel more manageable
+                  DBT skills made simple so that life can be more manageable
                 </div>
               </div>
 
@@ -82,8 +90,8 @@ const WhatIsSoMe = () => {
                   />
                 </svg>
                 <div className=" text-left">
-                  Virtual reality, hands-on, and real-time exposures with
-                  personalized coaching
+                  Dynamic, hands-on, real-time exposures with personalized
+                  coaching
                 </div>
               </div>
 
@@ -103,8 +111,8 @@ const WhatIsSoMe = () => {
                   />
                 </svg>
                 <div className=" text-left">
-                  Live skills calls and personalized accountability coaching to
-                  foster real change
+                  Live skills calls and accountability coaching packages
+                  available as needed
                 </div>
               </div>
 
@@ -128,16 +136,9 @@ const WhatIsSoMe = () => {
             </div>
           </main>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 ">
-          <img
-            className="object-cover object-center rounded"
-            alt="An illustrative image describing 'So ME' therapy"
-            src="./slot-canyon.jpg"
-          />
-        </div>
       </div>
     </section>
   );
 };
 
-export default WhatIsSoMe;
+export default HowWeDoIt;

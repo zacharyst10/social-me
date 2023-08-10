@@ -4,19 +4,19 @@ const WhoIsWe = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-col">
-        <div className="lg:w-6/6 mx-auto text-center title-font sm:text-4xl text-3xl mb-2 font-medium text-gray-900">
+        <div className="lg:w-4/6 mx-auto text-center title-font sm:text-4xl text-3xl mb-2 font-medium text-gray-900">
           Who We Are
           <div className="flex flex-col sm:flex-row mt-10">
             <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
-                <img src="./MountainSunOrange.svg" alt="Plant Sun" />
+                <img src="./PlantSun.svg" alt="Plant Sun" />
               </div>
               <div className="flex-grow">
                 <h2 className="font-banschrift text-gray-900 text-lg title-font font-bold mb-3">
                   Experience and Innovation
                 </h2>
                 <p className="font-source-sans leading-relaxed text-base">
-                  As founder of Social ME, my focus is always on you, the
+                  As an Executive Director, my focus is always on you, the
                   client. I've worked tirelessly to expand and refine our
                   services, ensuring we provide the highest quality of care
                   while continuously developing new ways to meet your mental
@@ -29,13 +29,13 @@ const WhoIsWe = () => {
                 <img
                   alt="feature"
                   className="object-cover object-center h-full w-full"
-                  src="./woman-on-rock.jpg"
+                  src="./meadow.jpg"
                 />
               </div>
             </div>
             <div className="sm:w-1/3 text-center sm:pl-8 sm:py-8">
               <div className="w-16 h-16 mt-5 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
-                <img src="./MountainCloudBlue.svg" alt="Sun Flower" />
+                <img src="./SunFlower.svg" alt="Sun Flower" />
               </div>
               <div className="flex-grow">
                 <h2 className="font-banschrift text-gray-900 text-lg  title-font font-bold mb-3">
@@ -51,7 +51,6 @@ const WhoIsWe = () => {
               </div>
             </div>
           </div>
-          {/* <p>'So ME' Mission Statement</p> */}
         </div>
       </div>
     </section>

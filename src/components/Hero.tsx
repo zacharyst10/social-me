@@ -12,7 +12,7 @@ const Hero = () => {
           <img
             src="./social_me_icon_lg.png"
             className="h-36 w-auto my-5 rounded-xl"
-            alt="Social Me Icon"
+            alt="Social ME Icon"
           />
           <p className="font-source-sans mb-8 text-4xl leading-relaxed font-extrabold">
             Therapy Gone Mobile
@@ -29,7 +29,7 @@ const Hero = () => {
             can truly meet you where you're at.
           </p> */}
           {/* <h1 className="font-banschrift title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Social Me Mobile Therapy Can Help
+            Social ME Mobile Therapy Can Help
           </h1> */}
 
           <Link to="Contact" smooth={true} duration={500}>

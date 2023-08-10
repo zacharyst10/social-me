@@ -64,7 +64,7 @@ export const NewClientSignUpEmail = ({
             <Hr className="border border-solid border-[#eaeaea] my-[26px] mx-0 w-full" />
             <Text className="text-[#666666] text-[12px] leading-[24px]">
               This message is intended solely for the use of the individual or
-              entity to whom it is addressed, namely Social Me staff. It may
+              entity to whom it is addressed, namely Social ME staff. It may
               contain confidential and/or privileged information. Any review,
               dissemination, copying, printing, or other use of this email by
               persons or entities other than the addressee is prohibited. If you
