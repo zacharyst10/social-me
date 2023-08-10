@@ -7,7 +7,7 @@ const Hero = () => {
       className="bg-cover bg-center flex items-center transform scale-x-[-1] "
       style={{ backgroundImage: `url('./road.jpg')` }}
     >
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center text-white h-screen transform scale-x-[-1] ">
+      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center text-white  transform scale-x-[-1] ">
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
           <img
             src="./social_me_icon_lg.png"

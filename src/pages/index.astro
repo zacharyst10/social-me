@@ -6,9 +6,8 @@ import Footer from "../components/Footer";
 import WhatWeDo from '../components/WhatWeDo';
 import {Toaster } from 'react-hot-toast';
 import Hero from '../components/Hero';
-import HowWeDoIt from '../components/HowWeDoIt';
-import WhoIsWe from '../components/WhoIsWe';
-
+import WhatIsSoMe from '../components/WhatIsSoMe';
+import WhoWeAre from '../components/WhoWeAre';
 
 ---
 
@@ -17,12 +16,14 @@ import WhoIsWe from '../components/WhoIsWe';
 		<Toaster position='top-center' client:load/>
 		<Navbar client:load />
 		<div id="Hero" />
-		<Hero client:load />
-		<div id="WhatWeDo" />
 		
-		<HowWeDoIt client:load />
+		<Hero client:load />
+		<div id="WhatIsSoMe" />
+		<WhatIsSoMe client:load />
+		<div id="WhatWeDo" />
 		<WhatWeDo client:load />
-		<WhoIsWe client:load />
+		<div id="WhoWeAre" />
+		<WhoWeAre client:load />
 		<div id="Contact" />
 		<Contact client:load />
 		<Footer client:load />
@@ -68,3 +69,4 @@ import WhoIsWe from '../components/WhoIsWe';
 		padding: 0;
 	}
 </style>
+../components/WhatIsSoMe

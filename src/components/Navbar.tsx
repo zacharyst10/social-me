@@ -95,6 +95,19 @@ const Navbar = () => {
             <li>
               <Link
                 href="/"
+                to="WhatIsSoMe"
+                smooth={true}
+                duration={300}
+                className="font-source-sans block py-2 pl-3 pr-4 text-gray-500 hover:bg-gray-100 lg:hover:bg-transparent cursor-pointer rounded lg:bg-transparent hover:text-custom-orange lg:p-0 dark:text-white lg:dark:text-blue-500"
+                aria-current="page"
+                onClick={handleToggle}
+              >
+                What is 'So ME'
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/"
                 to="WhatWeDo"
                 smooth={true}
                 duration={300}
@@ -106,22 +119,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a
-                href="/HowWeHelp"
+              <Link
+                href="/"
+                to="WhoWeAre"
+                smooth={true}
+                duration={300}
+                className="font-source-sans block py-2 pl-3 pr-4 text-gray-500 hover:bg-gray-100 lg:hover:bg-transparent cursor-pointer rounded lg:bg-transparent hover:text-custom-orange lg:p-0 dark:text-white lg:dark:text-blue-500"
+                aria-current="page"
                 onClick={handleToggle}
-                className="font-source-sans block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
-              >
-                How We Help
-              </a>
-            </li>
-            <li>
-              <a
-                href="/WhoWeAre"
-                onClick={handleToggle}
-                className="font-source-sans block py-2 pl-3 pr-4 text-gray-500 rounded cursor-pointer hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-custom-orange lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
               >
                 Who We Are
-              </a>
+              </Link>
             </li>
             <li>
               <Link

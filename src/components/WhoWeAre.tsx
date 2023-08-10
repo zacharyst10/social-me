@@ -9,7 +9,7 @@ const WhoIsWe = () => {
           <div className="flex flex-col sm:flex-row mt-10">
             <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
-                <img src="./PlantSun.svg" alt="Plant Sun" />
+                <img src="./MountainSunOrange.svg" alt="Plant Sun" />
               </div>
               <div className="flex-grow">
                 <h2 className="font-banschrift text-gray-900 text-lg title-font font-bold mb-3">
@@ -35,7 +35,7 @@ const WhoIsWe = () => {
             </div>
             <div className="sm:w-1/3 text-center sm:pl-8 sm:py-8">
               <div className="w-16 h-16 mt-5 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
-                <img src="./SunFlower.svg" alt="Sun Flower" />
+                <img src="./MountainCloudBlue.svg" alt="Sun Flower" />
               </div>
               <div className="flex-grow">
                 <h2 className="font-banschrift text-gray-900 text-lg  title-font font-bold mb-3">

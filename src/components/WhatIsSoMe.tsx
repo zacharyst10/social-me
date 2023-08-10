@@ -1,6 +1,6 @@
 import React from "react";
 //
-const HowWeDoIt = () => {
+const WhatIsSoMe = () => {
   return (
     <section className="bg-gray-100">
       <div className="container mx-auto flex flex-col-reverse md:flex-row px-10 py-20 items-center">
@@ -140,4 +140,4 @@ const HowWeDoIt = () => {
   );
 };
 
-export default HowWeDoIt;
+export default WhatIsSoMe;
