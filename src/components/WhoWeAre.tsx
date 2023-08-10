@@ -15,7 +15,7 @@ const WhoIsWe = () => {
                 <h2 className="font-banschrift text-gray-900 text-lg title-font font-bold mb-3">
                   Experience and Innovation
                 </h2>
-                <p className="font-source-sans leading-relaxed text-base">
+                <p className="font-source-sans leading-relaxed font-normal text-base">
                   As founder of Social ME, my focus is always on you, the
                   client. I've worked tirelessly to expand and refine our
                   services, ensuring we provide the highest quality of care
@@ -33,15 +33,15 @@ const WhoIsWe = () => {
                 />
               </div>
             </div>
-            <div className="sm:w-1/3 text-center sm:pl-8 sm:py-8">
-              <div className="w-16 h-16 mt-5 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
+            <div className="sm:w-1/3 text-center sm:pl-8 sm:py-8 lg:py-3">
+              <div className="w-20 h-20 mt-5 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
                 <img src="./MountainCloudBlue.svg" alt="Sun Flower" />
               </div>
               <div className="flex-grow">
                 <h2 className="font-banschrift text-gray-900 text-lg  title-font font-bold mb-3">
                   Leadership and Results
                 </h2>
-                <p className="font-source-sans leading-relaxed text-base">
+                <p className="font-source-sans leading-relaxed font-normal text-base">
                   My dedication to achieving real, impactful results means we
                   constantly evolve our services. Through comprehensive staff
                   training and thoughtful program development, we are better
