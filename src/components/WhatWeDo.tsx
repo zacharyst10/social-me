@@ -12,7 +12,7 @@ const WhatWeDo = () => {
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center order-2 md:order-2">
-          <h1 className="font-banschrift title-font  sm:text-4xl text-3xl mb-10 font-medium text-gray-900">
+          <h1 className="font-banschrift title-font  sm:text-4xl text-3xl mb-10 font-extrabold text-gray-900">
             What We Do
           </h1>
           <p className="font-source-sans mb-8 leading-relaxed">

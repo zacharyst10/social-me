@@ -4,7 +4,7 @@ const WhoIsWe = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-col">
-        <div className="lg:w-6/6 mx-auto text-center title-font sm:text-4xl text-3xl mb-2 font-medium text-gray-900">
+        <div className="lg:w-6/6 mx-auto text-center title-font sm:text-4xl text-3xl mb-2 font-extrabold text-gray-900">
           Who We Are
           <div className="flex flex-col sm:flex-row mt-10">
             <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
