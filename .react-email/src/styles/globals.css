@@ -15,3 +15,6 @@
     }
 } */
   
+.feathered-shadow {
+   box-shadow: 0 0 15px 15px white;
+}
