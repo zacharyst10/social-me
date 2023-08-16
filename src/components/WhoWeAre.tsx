@@ -55,7 +55,7 @@ const WhoIsWe = () => {
             <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
               <img src="./MountainCloudBlue.svg" alt="Sun Flower" />
             </div>
-            <div className="border border-gray-400 rounded-lg">
+            <div className="border-2 border-gray-500 rounded-2xl">
               <div className="p-10">
                 <p className="pb-5">MISSION STATEMENT:</p>
                 Social ME’s mission is to improve access to quality mental
