@@ -58,11 +58,13 @@ const WhoIsWe = () => {
             <div className="border-2 border-gray-500 rounded-2xl">
               <div className="p-10">
                 <p className="pb-5">MISSION STATEMENT:</p>
-                Social ME’s mission is to improve access to quality mental
-                health services by helping individuals and communities overcome
-                their unique barriers to care. We believe everyone deserves the
-                opportunity to move from “surviving to thriving,” regardless of
-                their location or circumstances.{" "}
+                <p className="text-2xl font-normal">
+                  Social ME’s mission is to improve access to quality mental
+                  health services by helping individuals and communities
+                  overcome their unique barriers to care. We believe everyone
+                  deserves the opportunity to move from “surviving to thriving,”
+                  regardless of their location or circumstances.{" "}
+                </p>
               </div>
             </div>
           </div>
