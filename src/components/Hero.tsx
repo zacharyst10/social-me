@@ -15,7 +15,7 @@ const Hero = () => {
             alt="Social ME Icon"
           />
           <p className="font-source-sans mb-8 text-4xl leading-relaxed font-extrabold">
-            Therapy Gone Mobile
+            Mental Health Gone Mobile
           </p>
           <p className="font-source-sans mb-8 font-light lg:w-1/2 text-xl leading-relaxed">
             'So ME' (Social Me) Mobile Therapy uses renovated

@@ -6,7 +6,7 @@ const WhatIsSoMe = () => {
       <div className="container mx-auto flex flex-col-reverse md:flex-row px-10 py-20 items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
           <header>
-            <h1 className="font-banschrift title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
+            <h1 className="font-source-sans title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
               What is 'So ME' mobile therapy?
             </h1>
           </header>
@@ -26,103 +26,111 @@ const WhatIsSoMe = () => {
             </h2>
 
             <div className="font-source-sans mb-8 leading-relaxed">
-              <div className="flex pb-5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="#0EC7E0"
-                  className="w-6 h-6 mr-3 flex-shrink-0 "
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-                <div className=" text-left">
-                  CBT-ERP done with you in mind so you can get back to living
-                  life your way
+              <button className="transition-transform duration-500 hover:scale-105">
+                <div className="flex pb-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="#0EC7E0"
+                    className="w-6 h-6 mr-3 flex-shrink-0 "
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <div className=" text-left ">
+                    CBT-ERP done with you in mind so you can get back to living
+                    life your way
+                  </div>
                 </div>
-              </div>
-              <div className="flex pb-5 ">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="#0EC7E0"
-                  className="w-6 h-6 mr-3 flex-shrink-0 "
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-                <div className=" text-left">
-                  DBT skills made simple so life can feel more manageable
+              </button>
+              <button className="transition-transform duration-500 hover:scale-105">
+                <div className="flex pb-5 ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="#0EC7E0"
+                    className="w-6 h-6 mr-3 flex-shrink-0 "
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <div className=" text-left">
+                    DBT skills made simple so life can feel more manageable
+                  </div>
                 </div>
-              </div>
+              </button>
+              <button className="transition-transform duration-500 hover:scale-105">
+                <div className="flex pb-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="#0EC7E0"
+                    className="w-6 h-6 mr-3 flex-shrink-0 "
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <div className=" text-left">
+                    Virtual reality, hands-on, and real-time exposures with
+                    personalized coaching
+                  </div>
+                </div>
+              </button>
+              <button className="transition-transform duration-500 hover:scale-105">
+                <div className="flex pb-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="#0EC7E0"
+                    className="w-6 h-6 mr-3 flex-shrink-0 "
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <div className=" text-left">
+                    Live skills calls and personalized accountability coaching
+                    to foster real change
+                  </div>
+                </div>
+              </button>
 
               <div className="flex pb-5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="#0EC7E0"
-                  className="w-6 h-6 mr-3 flex-shrink-0 "
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-                <div className=" text-left">
-                  Virtual reality, hands-on, and real-time exposures with
-                  personalized coaching
-                </div>
-              </div>
-
-              <div className="flex pb-5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="#0EC7E0"
-                  className="w-6 h-6 mr-3 flex-shrink-0 "
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-                <div className=" text-left">
-                  Live skills calls and personalized accountability coaching to
-                  foster real change
-                </div>
-              </div>
-
-              <div className="flex pb-5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="#0EC7E0"
-                  className="w-6 h-6 mr-3 flex-shrink-0 "
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
+                <button className="transition-transform duration-500 hover:scale-105">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="#0EC7E0"
+                    className="w-6 h-6 mr-3 flex-shrink-0 "
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </button>
                 <div className=" text-left">...and more!</div>
               </div>
             </div>

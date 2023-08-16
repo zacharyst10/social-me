@@ -34,86 +34,94 @@ const WhatWeDo = () => {
           </h1>
 
           <div className="font-source-sans mb-8 leading-relaxed">
-            <div className="flex pb-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="#F78100"
-                className="w-6 h-6 mr-3 flex-shrink-0 "
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              <div className=" text-left">
-                Youth and adults who want access to innovative and dynamic
-                therapy
+            <button className="transition-transform duration-500 hover:scale-105">
+              <div className="flex pb-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="#F78100"
+                  className="w-6 h-6 mr-3 flex-shrink-0 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <div className=" text-left">
+                  Youth and adults who want access to innovative and dynamic
+                  therapy
+                </div>
               </div>
-            </div>
+            </button>
 
-            <div className="flex pb-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="#F78100"
-                className="w-6 h-6 mr-3 flex-shrink-0 "
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              <div className=" text-left">
-                Students K-12 who need therapy integrated into the schoolday
+            <button className="transition-transform duration-500 hover:scale-105">
+              <div className="flex pb-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="#F78100"
+                  className="w-6 h-6 mr-3 flex-shrink-0 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <div className=" text-left">
+                  Students K-12 who need therapy integrated into the schoolday
+                </div>
               </div>
-            </div>
-            <div className="flex pb-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="#F78100"
-                className="w-6 h-6 mr-3 flex-shrink-0 "
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              <div className=" text-left">
-                New or established parents who need additional support through
-                all phases of perinatal care
+            </button>
+            <button className="transition-transform duration-500 hover:scale-105">
+              <div className="flex pb-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="#F78100"
+                  className="w-6 h-6 mr-3 flex-shrink-0 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <div className=" text-left">
+                  New or established parents who need additional support through
+                  all phases of perinatal care
+                </div>
               </div>
-            </div>
-            <div className="flex pb-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="#F78100"
-                className="w-6 h-6 mr-3 flex-shrink-0 "
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              <div className=" text-left">
-                Communities that lack access to mental health professionals and
-                in person therapeutic services
+            </button>
+            <button className="transition-transform duration-500 hover:scale-105">
+              <div className="flex pb-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="#F78100"
+                  className="w-6 h-6 mr-3 flex-shrink-0 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <div className=" text-left">
+                  Communities that lack access to mental health professionals
+                  and in person therapeutic services
+                </div>
               </div>
-            </div>
+            </button>
             <div className="flex pb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
