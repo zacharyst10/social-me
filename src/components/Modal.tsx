@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import { CheckIcon } from "@heroicons/react/24/outline";
 
 export default function Modal({ open, onClose, activeBullet }) {
   const renderContent = () => {
@@ -28,9 +27,7 @@ export default function Modal({ open, onClose, activeBullet }) {
         description:
           "This form of coaching prioritizes personal responsibility and proactive behavior, empowering individuals to take charge of their lives and achieve their desired outcomes.",
       };
-    }
-    // ... Handle other cases ...
-    else {
+    } else {
       return {
         title: "Default title",
         description: "Default description...",
@@ -96,7 +93,7 @@ export default function Modal({ open, onClose, activeBullet }) {
                     className="inline-flex w-full justify-center rounded-md bg-custom-blue px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-hover-blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-custom-blue"
                     onClick={onClose}
                   >
-                    Go back to dashboard
+                    Close
                   </button>
                 </div>
               </Dialog.Panel>

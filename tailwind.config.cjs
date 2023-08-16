@@ -9,7 +9,7 @@ module.exports = {
 			colors: {
 				'custom-orange': '#F78100',
 				'custom-blue': '#0EC7E0',
-				'hover-blue': '#0097B9',
+				'hover-blue': '#2FD8EB',
 			},
 			fontFamily: {
 				'banschrift': ['Banschrift-Bold Semi-Condensed', 'sans-serif'],
