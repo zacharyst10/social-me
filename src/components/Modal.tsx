@@ -1,13 +1,48 @@
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { CheckIcon } from "@heroicons/react/24/outline";
 
-export default function Example() {
-  const [open, setOpen] = useState(true);
+export default function Modal({ open, onClose, activeBullet }) {
+  const renderContent = () => {
+    switch (activeBullet) {
+      case 1:
+        return {
+          title: "CBT-ERP",
+          description:
+            "CBT-ERP is a type of therapy that helps you understand the thoughts and feelings that influence your behaviors. CBT-ERP is commonly used to treat a wide range of disorders, including phobias, addiction, depression and anxiety.",
+        };
+      case 2:
+        return {
+          title: "DBT",
+          description:
+            "DBT is a type of therapy that helps you understand the thoughts and feelings that influence your behaviors. DBT is commonly used to treat a wide range of disorders, including phobias, addiction, depression and anxiety.",
+        };
+      case 3:
+        return {
+          title: "Virtual Reality?",
+          description:
+            "VR is a type of therapy that helps you understand the thoughts and feelings that influence your behaviors. VR is commonly used to treat a wide range of disorders, including phobias, addiction, depression and anxiety.",
+        };
+      case 4:
+        return {
+          title: "Personalized Accountability Coaching",
+          description:
+            "Personalized Accountability Coaching is a type of therapy that helps you understand the thoughts and feelings that influence your behaviors. Personalized Accountability Coaching is commonly used to treat a wide range of disorders, including phobias, addiction, depression and anxiety.",
+        };
+      // ... Handle other cases ...
+      default:
+        return {
+          title: "Default title",
+          description: "Default description...",
+        };
+    }
+  };
+
+  const content = renderContent();
 
   return (
     <Transition.Root show={open} as={Fragment}>
-      <Dialog as="div" className="relative z-10" onClose={setOpen}>
+      <Dialog as="div" className="relative z-10" onClose={onClose}>
         <Transition.Child
           as={Fragment}
           enter="ease-out duration-300"
@@ -33,9 +68,11 @@ export default function Example() {
             >
               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
                 <div>
-                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
-                    <CheckIcon
-                      className="h-6 w-6 text-green-600"
+                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full">
+                    <img
+                      src="./social_me_circle.png"
+                      alt="Logo"
+                      className="h-12 w-auto text-green-600"
                       aria-hidden="true"
                     />
                   </div>
@@ -44,12 +81,11 @@ export default function Example() {
                       as="h3"
                       className="text-base font-semibold leading-6 text-gray-900"
                     >
-                      Payment successful
+                      {content.title}
                     </Dialog.Title>
                     <div className="mt-2">
                       <p className="text-sm text-gray-500">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Consequatur amet labore.
+                        {content.description}
                       </p>
                     </div>
                   </div>
@@ -57,8 +93,8 @@ export default function Example() {
                 <div className="mt-5 sm:mt-6">
                   <button
                     type="button"
-                    className="inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                    onClick={() => setOpen(false)}
+                    className="inline-flex w-full justify-center rounded-md bg-custom-blue px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-hover-blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-custom-blue"
+                    onClick={onClose}
                   >
                     Go back to dashboard
                   </button>
