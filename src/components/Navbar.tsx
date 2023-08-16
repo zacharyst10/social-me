@@ -55,7 +55,7 @@ const Navbar = () => {
             className="w-6 h-6 mr-1 justify-center"
           />
           <a
-            className="font-source-sans text-custom-blue mx-1 "
+            className="font-source-sans text-custom-blue mx-1 hover:text-hover-blue "
             href="tel:+13853231880"
           >
             385–323–1880
