@@ -219,7 +219,7 @@ const Contact = () => {
             )}
           </div>
 
-          <p className="font-source-sans mt-10 text-black text-xs">
+          <p className="font-source-sans mt-10 text-black text-xs text-left">
             * Please be aware that Social ME is NOT a crisis mobile unit. We
             value your mental health and well-being greatly. However, we are not
             equipped to handle mental health emergencies. If you or a loved one
