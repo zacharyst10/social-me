@@ -4,37 +4,37 @@ import { CheckIcon } from "@heroicons/react/24/outline";
 
 export default function Modal({ open, onClose, activeBullet }) {
   const renderContent = () => {
-    switch (activeBullet) {
-      case 1:
-        return {
-          title: "CBT-ERP",
-          description:
-            "CBT-ERP is a type of therapy that helps you understand the thoughts and feelings that influence your behaviors. CBT-ERP is commonly used to treat a wide range of disorders, including phobias, addiction, depression and anxiety.",
-        };
-      case 2:
-        return {
-          title: "DBT",
-          description:
-            "DBT is a type of therapy that helps you understand the thoughts and feelings that influence your behaviors. DBT is commonly used to treat a wide range of disorders, including phobias, addiction, depression and anxiety.",
-        };
-      case 3:
-        return {
-          title: "Virtual Reality?",
-          description:
-            "VR is a type of therapy that helps you understand the thoughts and feelings that influence your behaviors. VR is commonly used to treat a wide range of disorders, including phobias, addiction, depression and anxiety.",
-        };
-      case 4:
-        return {
-          title: "Personalized Accountability Coaching",
-          description:
-            "Personalized Accountability Coaching is a type of therapy that helps you understand the thoughts and feelings that influence your behaviors. Personalized Accountability Coaching is commonly used to treat a wide range of disorders, including phobias, addiction, depression and anxiety.",
-        };
-      // ... Handle other cases ...
-      default:
-        return {
-          title: "Default title",
-          description: "Default description...",
-        };
+    if (activeBullet === 1) {
+      return {
+        title: "CBT-ERP",
+        description:
+          "CBT-ERP focuses on identifying patterns of thinking and behavior that are harmful or non-productive and replaces them with more accurate thoughts and functional behaviors. It's especially effective for those with obsessive-compulsive tendencies.",
+      };
+    } else if (activeBullet === 2) {
+      return {
+        title: "DBT",
+        description:
+          "Dialectical Behavior Therapy (DBT) emphasizes the psychosocial aspects of treatment. It's designed to help people change patterns of behavior that are not helpful, such as self-harm, suicidal ideation, and substance abuse.",
+      };
+    } else if (activeBullet === 3) {
+      return {
+        title: "Virtual Reality?",
+        description:
+          "Virtual Reality (VR) therapy uses immersive virtual environments to confront sources of distress and has proven to be exceptionally effective for phobias and trauma therapy.",
+      };
+    } else if (activeBullet === 4) {
+      return {
+        title: "Personalized Accountability Coaching",
+        description:
+          "This form of coaching prioritizes personal responsibility and proactive behavior, empowering individuals to take charge of their lives and achieve their desired outcomes.",
+      };
+    }
+    // ... Handle other cases ...
+    else {
+      return {
+        title: "Default title",
+        description: "Default description...",
+      };
     }
   };
 
