@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <nav
       ref={node}
-      className="bg-white shadow-lg md:px-10 sm:px-0  z-75 border-gray-200 dark:bg-gray-900"
+      className="bg-white shadow-lg md:px-10 sm:px-0 sticky top-0 z-50 border-gray-200 dark:bg-gray-900"
     >
       <div className="flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
