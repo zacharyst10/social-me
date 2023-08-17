@@ -164,26 +164,6 @@ const WhatIsSoMe = () => {
                     <PlusCircleIcon className="h-5 w-5 flex-shrink-0" />
                   </div>
                 </button>
-
-                <div className="flex pb-5">
-                  <button className="transition-transform duration-500 hover:scale-105">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="#0EC7E0"
-                      className="w-6 h-6 mr-3 flex-shrink-0 "
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                  </button>
-                  <div className=" text-left">...and more!</div>
-                </div>
               </div>
             </main>
           </div>

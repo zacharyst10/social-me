@@ -7,7 +7,7 @@ export default function Modal({ open, onClose, activeBullet }) {
       return {
         title: "CBT-ERP",
         description:
-          "CBT-ERP focuses on identifying patterns of thinking and behavior that are harmful or non-productive and replaces them with more accurate thoughts and functional behaviors. It's especially effective for those with obsessive-compulsive tendencies.",
+          "CBT focuses on identifying patterns of thinking and behavior that are harmful or non-productive and replaces them with more accurate thoughts and functional behaviors. It's especially effective for those with obsessive-compulsive tendencies. ERP is a form of CBT that focuses on confronting fears and triggers in a safe and controlled environment. ",
       };
     } else if (activeBullet === 2) {
       return {
@@ -26,6 +26,30 @@ export default function Modal({ open, onClose, activeBullet }) {
         title: "Personalized Accountability Coaching",
         description:
           "This form of coaching prioritizes personal responsibility and proactive behavior, empowering individuals to take charge of their lives and achieve their desired outcomes.",
+      };
+    } else if (activeBullet === 5) {
+      return {
+        title: "Youth and adults wanting innovating therapy ",
+        description:
+          " In 2017, the National Institute of Mental Health estimated that 1.2% of U.S. adults had OCD. Around 19.1% of U.S. adults had an anxiety disorder in the past year, according to a 2019 report.",
+      };
+    } else if (activeBullet === 6) {
+      return {
+        title: "Students K-12",
+        description:
+          "CDC reported that 7.1% of children aged 3-17 years (about 4.4 million) have diagnosed anxiety. Childhood OCD affects 1-3% of the U.S. population, per the International OCD Foundation.",
+      };
+    } else if (activeBullet === 7) {
+      return {
+        title: "Parents seeking support during perinatal care",
+        description:
+          "Anxiety disorders during pregnancy and the post-termination period are prevalent, with rates of up to 15% reported in some studies. OCD can sometimes become exacerbated during or shortly after pregnancy, although comprehensive statistics are limited. ",
+      };
+    } else if (activeBullet === 8) {
+      return {
+        title: "Communities lacking mental health access",
+        description:
+          " Approximately half of those with OCD do not receive treatment, often due to lack of understanding about the disorder or lack of access to specialists. Only 36.9% of those with an anxiety disorder are receiving treatment, as per the Anxiety and Depression Association of America.",
       };
     } else {
       return {
@@ -81,7 +105,7 @@ export default function Modal({ open, onClose, activeBullet }) {
                       {content.title}
                     </Dialog.Title>
                     <div className="mt-2">
-                      <p className="text-sm text-gray-500">
+                      <p className="text-sm text-left text-gray-500">
                         {content.description}
                       </p>
                     </div>
