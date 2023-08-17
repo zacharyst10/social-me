@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Modal from "./Modal";
+import { PlusCircleIcon } from "@heroicons/react/24/outline";
+
 // on button click open modal
 const WhatIsSoMe = () => {
   const [open, setOpen] = useState(false);
@@ -39,114 +41,127 @@ const WhatIsSoMe = () => {
 
               <div className="font-source-sans mb-8 leading-relaxed">
                 <button
-                  className="transition-transform duration-500 hover:scale-105"
+                  className="transition-all ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
                     setOpen(true);
                     setActiveBullet(1);
                   }}
                 >
-                  <div className="flex pb-5">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="#0EC7E0"
-                      className="w-6 h-6 mr-3 flex-shrink-0 "
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                    <div className=" text-left ">
-                      CBT-ERP done with you in mind so you can get back to
-                      living life your way
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="#0EC7E0"
+                        className="w-6 h-6 mr-3 flex-shrink-0 "
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                      <div className="flex-1 text-left">
+                        CBT-ERP done with you in mind so you can get back to
+                        living life your way
+                      </div>
                     </div>
+                    <PlusCircleIcon className="h-5 w-5" />
                   </div>
                 </button>
+
                 <button
-                  className="transition-transform duration-500 hover:scale-105"
+                  className="transition-all ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
                     setOpen(true);
                     setActiveBullet(2);
                   }}
                 >
-                  <div className="flex pb-5 ">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="#0EC7E0"
-                      className="w-6 h-6 mr-3 flex-shrink-0 "
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                    <div className=" text-left">
-                      DBT skills made simple so life can feel more manageable
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="#0EC7E0"
+                        className="w-6 h-6 mr-3 flex-shrink-0 "
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                      <div className="flex-1 text-left">
+                        DBT skills made simple so life can feel more manageable
+                      </div>
                     </div>
+                    <PlusCircleIcon className="h-5 w-5" />
                   </div>
                 </button>
                 <button
-                  className="transition-transform duration-500 hover:scale-105"
+                  className="transition-all ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
                     setOpen(true);
                     setActiveBullet(3);
                   }}
                 >
-                  <div className="flex pb-5">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="#0EC7E0"
-                      className="w-6 h-6 mr-3 flex-shrink-0 "
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                    <div className=" text-left">
-                      Virtual reality, hands-on, and real-time exposures with
-                      personalized coaching
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="#0EC7E0"
+                        className="w-6 h-6 mr-3 flex-shrink-0 "
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                      <div className="flex-1 text-left">
+                        Virtual reality, hands-on, and real-time exposures with
+                        personalized coaching
+                      </div>
                     </div>
+                    <PlusCircleIcon className="h-5 w-5" />
                   </div>
                 </button>
                 <button
-                  className="transition-transform duration-500 hover:scale-105"
+                  className="transition-all ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
                     setOpen(true);
                     setActiveBullet(4);
                   }}
                 >
-                  <div className="flex pb-5">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="#0EC7E0"
-                      className="w-6 h-6 mr-3 flex-shrink-0 "
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                    <div className=" text-left">
-                      Live skills calls and personalized accountability coaching
-                      to foster real change
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="#0EC7E0"
+                        className="w-6 h-6 mr-3 flex-shrink-0 "
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                      <div className="flex-1 text-left">
+                        Live skills calls and personalized accountability
+                        coaching to foster real change
+                      </div>
                     </div>
+                    <PlusCircleIcon className="h-5 w-5" />
                   </div>
                 </button>
 

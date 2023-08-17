@@ -74,7 +74,7 @@ const Contact = () => {
           </div>
         </div>
       ));
-      return null; // Prevent the automatic toast from being created
+      return null;
     } catch (err) {
       setLoading(false);
       toast.error(`Could not send: ${err.message}`);
