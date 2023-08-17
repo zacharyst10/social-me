@@ -16,7 +16,7 @@ const WhatIsSoMe = () => {
         activeBullet={activeBullet}
       />
 
-      <section className="bg-gray-100">
+      <section className="bg-white">
         <div className="container mx-auto flex flex-col-reverse md:flex-row px-10 py-20 items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
             <header>
@@ -41,7 +41,7 @@ const WhatIsSoMe = () => {
 
               <div className="font-source-sans mb-8 leading-relaxed">
                 <button
-                  className="transition-all ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
+                  className="transition-all bg-gray-100 ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
                     setOpen(true);
                     setActiveBullet(1);
@@ -73,7 +73,7 @@ const WhatIsSoMe = () => {
                 </button>
 
                 <button
-                  className="transition-all ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
+                  className="transition-all bg-gray-100 ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
                     setOpen(true);
                     setActiveBullet(2);
@@ -103,7 +103,7 @@ const WhatIsSoMe = () => {
                   </div>
                 </button>
                 <button
-                  className="transition-all ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
+                  className="transition-all ease-in-out bg-gray-100 duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
                     setOpen(true);
                     setActiveBullet(3);
@@ -134,7 +134,7 @@ const WhatIsSoMe = () => {
                   </div>
                 </button>
                 <button
-                  className="transition-all ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
+                  className="transition-all ease-in-out bg-gray-100 duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
                     setOpen(true);
                     setActiveBullet(4);
