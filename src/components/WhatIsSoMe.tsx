@@ -68,7 +68,7 @@ const WhatIsSoMe = () => {
                         living life your way
                       </div>
                     </div>
-                    <PlusCircleIcon className="h-5 w-5" />
+                    <PlusCircleIcon className="h-5 w-5 flex-shrink-0" />
                   </div>
                 </button>
 
@@ -99,7 +99,7 @@ const WhatIsSoMe = () => {
                         DBT skills made simple so life can feel more manageable
                       </div>
                     </div>
-                    <PlusCircleIcon className="h-5 w-5" />
+                    <PlusCircleIcon className="h-5 w-5 flex-shrink-0" />
                   </div>
                 </button>
                 <button
@@ -130,7 +130,7 @@ const WhatIsSoMe = () => {
                         personalized coaching
                       </div>
                     </div>
-                    <PlusCircleIcon className="h-5 w-5" />
+                    <PlusCircleIcon className="h-5 w-5 flex-shrink-0" />
                   </div>
                 </button>
                 <button
@@ -161,7 +161,7 @@ const WhatIsSoMe = () => {
                         coaching to foster real change
                       </div>
                     </div>
-                    <PlusCircleIcon className="h-5 w-5" />
+                    <PlusCircleIcon className="h-5 w-5 flex-shrink-0" />
                   </div>
                 </button>
 
