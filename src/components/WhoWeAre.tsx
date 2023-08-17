@@ -2,7 +2,7 @@ import react from "react";
 
 const WhoIsWe = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font bg-white">
       <div className="container px-5 py-24 mx-auto flex flex-col">
         <div className="lg:w-6/6 mx-auto text-center title-font sm:text-4xl text-3xl mb-2 font-extrabold text-gray-900">
           Who We Are

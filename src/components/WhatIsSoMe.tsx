@@ -41,7 +41,7 @@ const WhatIsSoMe = () => {
 
               <div className="font-source-sans mb-8 leading-relaxed">
                 <button
-                  className="transition-all bg-gray-100 ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
+                  className="transition-all bg-gray-50 ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
                     setOpen(true);
                     setActiveBullet(1);
@@ -73,7 +73,7 @@ const WhatIsSoMe = () => {
                 </button>
 
                 <button
-                  className="transition-all bg-gray-100 ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
+                  className="transition-all bg-gray-50 ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
                     setOpen(true);
                     setActiveBullet(2);
@@ -103,7 +103,7 @@ const WhatIsSoMe = () => {
                   </div>
                 </button>
                 <button
-                  className="transition-all ease-in-out bg-gray-100 duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
+                  className="transition-all ease-in-out bg-gray-50 duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
                     setOpen(true);
                     setActiveBullet(3);
@@ -134,7 +134,7 @@ const WhatIsSoMe = () => {
                   </div>
                 </button>
                 <button
-                  className="transition-all ease-in-out bg-gray-100 duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
+                  className="transition-all ease-in-out bg-gray-50 duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
                     setOpen(true);
                     setActiveBullet(4);
