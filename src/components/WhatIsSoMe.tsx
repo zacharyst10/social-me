@@ -20,7 +20,7 @@ const WhatIsSoMe = () => {
         <div className="container mx-auto flex flex-col-reverse md:flex-row px-10 py-20 items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
             <header>
-              <h1 className="font-amaranth title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
+              <h1 className="font-amaranth sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
                 What is 'So ME' mobile therapy?
               </h1>
             </header>
