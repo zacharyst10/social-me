@@ -3,17 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
-/* @layer base {
-
-    h1 {
-       @apply font-family: 'Banschrift-Bold Semi-Condensed', sans-serif;
-    }
-    
-    p {
-       @apply font-family: 'Source Sans Variable', sans-serif;
-    }
-} */
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
   
 .feathered-shadow {
    box-shadow: 0 0 15px 15px white;
