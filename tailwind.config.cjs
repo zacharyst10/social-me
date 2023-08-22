@@ -12,9 +12,9 @@ module.exports = {
 				'hover-blue': '#2FD8EB',
 			},
 			fontFamily: {
+				'amaranth': ['Amaranth', 'sans-serif'],
 				'banschrift': ['Banschrift-Bold Semi-Condensed', 'sans-serif'],
 				'source-sans': ['Source Sans Variable', 'sans-serif'],
-				'amaranth': ['Amaranth', 'sans-serif'],
 			  }
 		},
 	},
