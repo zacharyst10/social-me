@@ -14,7 +14,7 @@ const Hero = () => {
             className="h-36 w-auto my-5 rounded-xl"
             alt="Social ME Icon"
           />
-          <p className="font-source-sans mb-8 text-4xl leading-relaxed font-extrabold">
+          <p className="font-roboto mb-8 text-4xl leading-relaxed font-extrabold">
             Mental Health Gone Mobile
           </p>
           <p className="font-source-sans mb-8 font-light lg:w-1/2 text-xl leading-relaxed">
@@ -35,7 +35,7 @@ const Hero = () => {
           <Link to="Contact" smooth={true} duration={500}>
             <button
               type="submit"
-              className="flex mx-auto text-black bg-custom-blue border-0 py-2 px-8 focus:outline-none hover:bg-hover-blue rounded text-lg"
+              className="flex mx-auto font-source-sans text-black bg-custom-blue border-0 py-2 px-8 focus:outline-none hover:bg-hover-blue rounded text-lg"
             >
               Begin Your Mobile Therapy Journey Today
             </button>

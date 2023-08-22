@@ -69,7 +69,7 @@ const WhoIsWe = () => {
               <div className="">
                 <div className="p-10">
                   <button
-                    className="transition-all bg-gray-50 ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
+                    className="transition-all font-roboto font-extrabold bg-gray-50 ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                     onClick={() => {
                       setOpen(true);
                       setActiveBullet(9);

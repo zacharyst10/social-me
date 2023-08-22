@@ -105,12 +105,12 @@ export default function Modal({ open, onClose, activeBullet }) {
                   <div className="mt-3 text-center sm:mt-5">
                     <Dialog.Title
                       as="h3"
-                      className="text-base font-semibold leading-6 text-gray-900"
+                      className="text-base font-roboto font-semibold leading-6 text-gray-900"
                     >
                       {content.title}
                     </Dialog.Title>
                     <div className="mt-2">
-                      <p className="text-sm text-left text-gray-500">
+                      <p className="text-sm font-source-sans text-left text-gray-500">
                         {content.description}
                       </p>
                     </div>
@@ -119,7 +119,7 @@ export default function Modal({ open, onClose, activeBullet }) {
                 <div className="mt-5 sm:mt-6">
                   <button
                     type="button"
-                    className="inline-flex w-full justify-center rounded-md bg-custom-blue px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-hover-blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-custom-blue"
+                    className="inline-flex font-source-sans w-full justify-center rounded-md bg-custom-blue px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-hover-blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-custom-blue"
                     onClick={onClose}
                   >
                     Close

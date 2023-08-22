@@ -85,7 +85,7 @@ const Contact = () => {
     <section className="text-gray-600 body-font relative">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
-          <div className="lg:w-4/6 mx-auto text-center title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
+          <div className="lg:w-4/6 mx-auto text-center font-roboto title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
             Contact Us
           </div>
           <p className="font-source-sans lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -180,7 +180,7 @@ const Contact = () => {
                     value={message} // controlled input
                     onChange={(e) => setMessage(e.target.value)} // update state on change
                     placeholder="Tell us how we can help!"
-                    className="w-full bg-white rounded border border-gray-300 focus:border-custom-blue focus:ring-2 focus:ring-custom-blue h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-white font-source-sans rounded border border-gray-300 focus:border-custom-blue focus:ring-2 focus:ring-custom-blue h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
                 {responseMessage && <p>{responseMessage}</p>}
