@@ -14,6 +14,7 @@ module.exports = {
 			fontFamily: {
 				'banschrift': ['Banschrift-Bold Semi-Condensed', 'sans-serif'],
 				'source-sans': ['Source Sans Variable', 'sans-serif'],
+				'amaranth': ['Amaranth', 'sans-serif'],
 			  }
 		},
 	},

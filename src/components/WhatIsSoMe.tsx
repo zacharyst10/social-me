@@ -20,13 +20,13 @@ const WhatIsSoMe = () => {
         <div className="container mx-auto flex flex-col-reverse md:flex-row px-10 py-20 items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
             <header>
-              <h1 className="font-source-sans title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
+              <h1 className="font-amaranth title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
                 What is 'So ME' mobile therapy?
               </h1>
             </header>
 
             <main>
-              <p className="font-source-sans mb-8 leading-relaxed">
+              <p className="font-amaranth mb-8 leading-relaxed">
                 Good question! Social ME helps our clients experience therapy
                 that's 'So ME' by offering interventions that are personalized,
                 empowering, and designed to support your individual needs. This
