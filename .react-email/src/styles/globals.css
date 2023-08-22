@@ -2,6 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '@fontsource/amaranth/400.css';
+@import '@fontsource/amaranth/700.css';
+
+h1 {
+   font-family: 'Amaranth', sans-serif;
+
+}
 
   
 .feathered-shadow {
