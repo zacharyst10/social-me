@@ -51,6 +51,11 @@ export default function Modal({ open, onClose, activeBullet }) {
         description:
           " Approximately half of those with OCD do not receive treatment, often due to lack of understanding about the disorder or lack of access to specialists. Only 36.9% of those with an anxiety disorder are receiving treatment, as per the Anxiety and Depression Association of America.",
       };
+    } else if (activeBullet === 9) {
+      return {
+        description:
+          "Social ME’s mission is to improve access to quality mental health services by helping individuals and communities overcome their unique barriers to care. We believe everyone deserves the opportunity to move from “surviving to thriving,” regardless of their location or circumstances.",
+      };
     } else {
       return {
         title: "Default title",

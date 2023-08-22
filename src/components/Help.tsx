@@ -19,7 +19,7 @@ const Help = () => {
                 <img src="./MountainWindOrange.svg" alt="Orange Flower" />
               </div>
               <div className="flex-grow">
-                <h2 className="font-banschrift text-gray-900 text-lg title-font font-bold mb-3">
+                <h2 className="font-roboto text-gray-900 text-lg title-font font-bold mb-3">
                   On-Demand Accessibility
                 </h2>
                 <p className="font-source-sans leading-relaxed text-base">
@@ -35,7 +35,7 @@ const Help = () => {
                 <img src="./MountainCloudBlue.svg" alt="Blue Mountain" />
               </div>
               <div className="flex-grow">
-                <h2 className="font-banschrift text-gray-900 text-lg title-font font-bold mb-3">
+                <h2 className="font-roboto text-gray-900 text-lg title-font font-bold mb-3">
                   Personalized Therapy Sessions
                 </h2>
                 <p className="font-source-sans leading-relaxed text-base">
@@ -52,7 +52,7 @@ const Help = () => {
                 <img src="./MountainSunOrange.svg" alt="Green Tree" />
               </div>
               <div className="flex-grow">
-                <h2 className="font-banschrift text-gray-900 text-lg title-font font-bold mb-3">
+                <h2 className="font-roboto text-gray-900 text-lg title-font font-bold mb-3">
                   Comfortable Environment
                 </h2>
                 <p className="font-source-sans leading-relaxed text-base">

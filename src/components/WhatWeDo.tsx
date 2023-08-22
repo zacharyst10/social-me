@@ -24,7 +24,7 @@ const WhatWeDo = () => {
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center order-2 md:order-2">
-            <h1 className="font-banschrift title-font  sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
+            <h1 className="font-roboto title-font  sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
               What We Do
             </h1>
             <p className="font-source-sans mb-8 leading-relaxed">
@@ -41,7 +41,7 @@ const WhatWeDo = () => {
               trained professionals. We also offer telehealth services for those
               who prefer to meet with their therapist virtually.
             </p>
-            <h1 className="font-banschrift title-font  sm:text-2xl text-3xl mb-7 font-medium text-custom-orange">
+            <h1 className="font-roboto title-font  sm:text-2xl text-3xl mb-7 font-medium text-custom-orange">
               We bring therapy to...
             </h1>
 

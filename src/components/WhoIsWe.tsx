@@ -12,7 +12,7 @@ const WhoIsWe = () => {
                 <img src="./PlantSun.svg" alt="Plant Sun" />
               </div>
               <div className="flex-grow">
-                <h2 className="font-banschrift text-gray-900 text-lg title-font font-bold mb-3">
+                <h2 className="font-roboto text-gray-900 text-lg title-font font-bold mb-3">
                   Experience and Innovation
                 </h2>
                 <p className="font-source-sans leading-relaxed text-base">
@@ -38,7 +38,7 @@ const WhoIsWe = () => {
                 <img src="./SunFlower.svg" alt="Sun Flower" />
               </div>
               <div className="flex-grow">
-                <h2 className="font-banschrift text-gray-900 text-lg  title-font font-bold mb-3">
+                <h2 className="font-roboto text-gray-900 text-lg  title-font font-bold mb-3">
                   Leadership and Results
                 </h2>
                 <p className="font-source-sans leading-relaxed text-base">

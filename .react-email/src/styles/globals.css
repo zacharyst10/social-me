@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import '@fontsource/amaranth/400.css';
-@import '@fontsource/amaranth/700.css';
 
-h1 {
-   font-family: 'Amaranth', sans-serif;
 
-}
+
 
   
 .feathered-shadow {

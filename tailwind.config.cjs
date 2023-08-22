@@ -14,8 +14,8 @@ module.exports = {
 			},
 			fontFamily: {
 				'amaranth': ['Amaranth', 'sans-serif'],
-				'banschrift': ['Banschrift-Bold Semi-Condensed', 'sans-serif'],
-				'source-sans': ['Source Sans Variable', 'sans-serif'],
+				'roboto': ['Roboto', 'sans-serif'],
+				'source-sans': ['Source Sans 3 Variable', 'sans-serif'],
 			  }
 		},
 	},

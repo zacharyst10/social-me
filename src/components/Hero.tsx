@@ -28,7 +28,7 @@ const Hero = () => {
             Our offices are housed in custom-built buses so that your therapist
             can truly meet you where you're at.
           </p> */}
-          {/* <h1 className="font-banschrift title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+          {/* <h1 className="font-roboto title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Social ME Mobile Therapy Can Help
           </h1> */}
 
