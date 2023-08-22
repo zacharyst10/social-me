@@ -1,7 +1,7 @@
 import react, { useState } from "react";
 import Modal from "./Modal";
 
-const WhoIsWe = () => {
+const WhoWeAre = () => {
   const [open, setOpen] = useState(false);
 
   const [activeBullet, setActiveBullet] = useState(null);
@@ -86,4 +86,4 @@ const WhoIsWe = () => {
     </>
   );
 };
-export default WhoIsWe;
+export default WhoWeAre;
