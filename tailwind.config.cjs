@@ -15,7 +15,7 @@ module.exports = {
 			fontFamily: {
 				'amaranth': ['Amaranth', 'sans-serif'],
 				'roboto': ['Roboto', 'sans-serif'],
-				'source-sans': ['Source Sans 3 Variable', 'sans-serif'],
+				'source-sans': ['Source Sans Pro', 'sans-serif'],
 			  }
 		},
 	},
