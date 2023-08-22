@@ -13,7 +13,6 @@ module.exports = {
 				'hover-blue': '#2FD8EB',
 			},
 			fontFamily: {
-				'amaranth': ['Amaranth', 'sans-serif'],
 				'roboto': ['Roboto', 'sans-serif'],
 				'source-sans': ['Source Sans Pro', 'sans-serif'],
 			  }
