@@ -35,11 +35,11 @@ const WhatIsSoMe = () => {
                 ME' again.
               </p>
 
-              <h2 className="font-banschrift title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-blue">
+              <h2 className="font-amaranth title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-blue">
                 'So ME' care includes...
               </h2>
 
-              <div className="font-source-sans mb-8 leading-relaxed">
+              <div className="font-amaranth mb-8 leading-relaxed">
                 <button
                   className="transition-all bg-gray-50 ease-in-out duration-300 hover:scale-105 hover:bg-gray-200 p-4 m-2 rounded-lg shadow-md border border-gray-300 hover:shadow-xl w-full md:max-w-xl cursor-pointer"
                   onClick={() => {
