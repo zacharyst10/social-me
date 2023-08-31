@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Modal from "./Modal";
 import { PlusCircleIcon } from "@heroicons/react/24/outline";
 
@@ -15,7 +15,7 @@ const WhatIsSoMe = () => {
         activeBullet={activeBullet}
       />
 
-      <section className="bg-white">
+      <section className="bg-white relative">
         <div className="container mx-auto flex flex-col-reverse md:flex-row px-10 py-20 items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
             <header>
