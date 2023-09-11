@@ -40,7 +40,7 @@ export const post: APIRoute = async ({ request }) => {
   try {
     const response = await resend.emails.send({
       from: "Leah <email@mail.someslc.com>",
-      to: "stout.zachary@gmail.com",
+      to: "leah@socialmeslc.com",
       subject: "New client sign up!",
       react: NewClientSignUpEmail({ name, email, message }),
     });
