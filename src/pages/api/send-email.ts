@@ -5,7 +5,7 @@ import NewClientSignUpEmail from "../../emails/NewClientSignUp";
 
 const resend = new Resend(import.meta.env.RESEND_API_KEY);
 
-export const post: APIRoute = async ({ request }) => {
+export const POST: APIRoute = async ({ request }) => {
   const data = await request.formData();
 
   const nameData = data.get("name");
@@ -40,7 +40,7 @@ export const post: APIRoute = async ({ request }) => {
   try {
     const response = await resend.emails.send({
       from: "Leah <email@mail.someslc.com>",
-      to: "leah@socialmeslc.com",
+      to: "stout.zachary@gmail.com",
       subject: "New client sign up!",
       react: NewClientSignUpEmail({ name, email, message }),
     });
