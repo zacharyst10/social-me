@@ -47,9 +47,10 @@ export const NewClientSignUpEmail = ({
               <p>
                 <strong className="ml-16">Email:</strong> {email}
               </p>
-              <p>
-                <strong className="ml-16">Message:</strong> {message}
-              </p>
+              <div>
+                <strong className="ml-16">Message:</strong>
+                <div className="ml-16">{message}</div>
+              </div>
             </Text>
             <Section>
               <Row>

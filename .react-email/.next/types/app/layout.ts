@@ -1,4 +1,4 @@
-// File: /Users/zacharystout/Documents/Freelance/Leah/astrobiz/.react-email/src/app/layout.tsx
+// File: /Users/zacharystout/Documents/Coding-Stuff/Stout Software Solutions/Leah/astrobiz/.react-email/src/app/layout.tsx
 import * as entry from '../../../src/app/layout'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface'
 

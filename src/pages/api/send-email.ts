@@ -28,7 +28,7 @@ export const post: APIRoute = async ({ request }) => {
 
   const name = nameData;
   const email = emailData;
-  const message = messageData || "No message provided"; // If there's no message, a default one will be set.
+  const message = messageData || "No message provided";
 
   // Instantiate the email component
   const emailComponent = NewClientSignUpEmail({ name, email, message });
@@ -39,8 +39,8 @@ export const post: APIRoute = async ({ request }) => {
   // Send the email
   try {
     const response = await resend.emails.send({
-      from: "email@mail.someslc.com",
-      to: "leah@socialmeslc.com",
+      from: "Leah <email@mail.someslc.com>",
+      to: "stout.zachary@gmail.com",
       subject: "New client sign up!",
       react: NewClientSignUpEmail({ name, email, message }),
     });

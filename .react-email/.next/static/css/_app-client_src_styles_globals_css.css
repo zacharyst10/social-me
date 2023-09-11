@@ -936,69 +936,172 @@ video {
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+
+
+  
+.feathered-shadow {
+   box-shadow: 0 0 15px 15px white;
+}
+
+
+
+
+  
 .before\:mr-2::before {
   content: var(--tw-content);
   margin-right: 0.5rem;
 }
+
+
+
+
+  
 .before\:text-slate-11::before {
   content: var(--tw-content);
   color: hsla(208, 98.7%, 96.8%, 0.615);
 }
+
+
+
+
+  
 .before\:content-\[\'\$\'\]::before {
   --tw-content: '$';
   content: var(--tw-content);
 }
+
+
+
+
+  
 .checked\:bg-blue-500:checked {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
+
+
+
+
+  
 .hover\:border-slate-12:hover {
   border-color: hsla(211, 86.7%, 99.6%, 0.927);
 }
+
+
+
+
+  
 .hover\:bg-white\/90:hover {
   background-color: rgb(255 255 255 / 0.9);
 }
+
+
+
+
+  
 .hover\:bg-gradientHover:hover {
   background-image: linear-gradient(145.37deg, rgba(255, 255, 255, 0.1) -8.75%, rgba(255, 255, 255, 0.057) 83.95%);
 }
+
+
+
+
+  
 .hover\:text-slate-12:hover {
   color: hsla(211, 86.7%, 99.6%, 0.927);
 }
+
+
+
+
+  
 .focus\:bg-white\/90:focus {
   background-color: rgb(255 255 255 / 0.9);
 }
+
+
+
+
+  
 .focus\:bg-gradientHover:focus {
   background-image: linear-gradient(145.37deg, rgba(255, 255, 255, 0.1) -8.75%, rgba(255, 255, 255, 0.057) 83.95%);
 }
+
+
+
+
+  
 .focus\:text-slate-12:focus {
   color: hsla(211, 86.7%, 99.6%, 0.927);
 }
+
+
+
+
+  
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
+
+
+
+  
 .focus\:ring-2:focus {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
+
+
+
+
+  
 .focus\:ring-1:focus {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
+
+
+
+
+  
 .focus\:ring-white\/20:focus {
   --tw-ring-color: rgb(255 255 255 / 0.2);
 }
+
+
+
+
+  
 .focus\:ring-slate-12:focus {
   --tw-ring-color: hsla(211, 86.7%, 99.6%, 0.927);
 }
+
+
+
+
+  
 .disabled\:border-transparent:disabled {
   border-color: transparent;
 }
+
+
+
+
+  
 .disabled\:bg-slate-11:disabled {
   background-color: hsla(208, 98.7%, 96.8%, 0.615);
 }
+
+
+
+
+  
 @media (min-width: 768px) {
 
   .md\:block {
@@ -1018,4 +1121,3 @@ video {
     line-height: 85px;
   }
 }
-
