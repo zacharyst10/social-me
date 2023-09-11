@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
-import vercelStatic from '@astrojs/vercel/static';
+import vercel from "@astrojs/vercel/serverless";
 
 
 
@@ -10,6 +10,6 @@ export default defineConfig({
   site: 'https://www.someslc.com',
   base: "/",
   integrations: [tailwind(), react(), ],
-  output: "static",
-  adapter: vercelStatic()
+  output: "server",
+  adapter: vercel()
 });
