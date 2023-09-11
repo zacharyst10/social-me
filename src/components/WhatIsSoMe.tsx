@@ -170,7 +170,7 @@ const WhatIsSoMe = () => {
             <img
               className="object-cover object-center rounded-xl"
               alt="An illustrative image describing 'So ME' therapy"
-              src="./slot-canyon.jpg"
+              src="./leah-with-dog-and-bus.jpg"
             />
           </div>
         </div>

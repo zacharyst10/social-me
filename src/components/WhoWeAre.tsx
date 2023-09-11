@@ -40,7 +40,7 @@ const WhoWeAre = () => {
                   <img
                     alt="feature"
                     className="object-cover object-center h-full w-full"
-                    src="./woman-on-rock.jpg"
+                    src="./leahs.jpg"
                   />
                 </div>
               </div>
