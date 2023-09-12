@@ -4,38 +4,31 @@ import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <section
-      className="bg-cover bg-center flex items-center transform scale-x-[-1] h-screen "
+      className="bg-cover bg-center flex h-screen "
       style={{ backgroundImage: `url('./hero.jpg')` }}
     >
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center text-white  transform scale-x-[-1] ">
-        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-          <img
+      <div className="container mx-auto flex md:flex-row flex-col pt-20 text-black">
+        <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center  text-center">
+          {/* <img
             src="./social_me_icon_lg.png"
             className="h-36 w-auto my-5 rounded-xl"
             alt="Social ME Icon"
-          />
-          <p className="font-roboto mb-8 text-4xl leading-relaxed font-extrabold">
+          /> */}
+          <p className="font-roboto mb-8 text-6xl leading-relaxed  font-thin">
             Mental Health Gone Mobile
           </p>
-          <p className="font-source-sans mb-8 font-light lg:w-1/2 text-xl leading-relaxed">
+          <p className="font-roboto mb-8 lg:w-1/2 text-2xl font-bold leading-relaxed">
             'So ME' (Social Me) Mobile Therapy uses renovated
-            buses-turned-mobile-therapy-offices so that you can get{" "}
+            buses-turned-mobile-therapy-offices so that you can get
             <span className="font-extrabold">
               quality mental health treatment wherever you need it.
             </span>
           </p>
-          {/* <p className="font-source-sans mb-8 leading-relaxed">
-            Our offices are housed in custom-built buses so that your therapist
-            can truly meet you where you're at.
-          </p> */}
-          {/* <h1 className="font-roboto title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Social ME Mobile Therapy Can Help
-          </h1> */}
 
           <Link to="Contact" smooth={true} duration={500}>
             <button
               type="submit"
-              className="flex mx-auto font-source-sans text-black bg-custom-blue border-0 py-2 px-8 focus:outline-none hover:bg-hover-blue rounded text-lg"
+              className="flex mx-auto font-source-sans text-black font-thin bg-custom-blue border-0 py-2 px-8 focus:outline-none hover:bg-hover-blue rounded text-lg"
             >
               Begin Your Mobile Therapy Journey Today
             </button>
