@@ -14,7 +14,7 @@ const Hero = () => {
             className="h-36 w-auto my-5 rounded-xl"
             alt="Social ME Icon"
           /> */}
-          <p className="font-roboto mb-8 text-6xl leading-relaxed  font-thin">
+          <p className="font-roboto mb-8 text-6xl font-thin">
             Mental Health Gone Mobile
           </p>
           <p className="font-roboto mb-5 lg:w-1/2 text-xl mx-5 font-bold leading-relaxed">
