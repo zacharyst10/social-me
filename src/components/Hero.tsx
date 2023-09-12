@@ -7,7 +7,7 @@ const Hero = () => {
       className="bg-cover bg-center flex h-screen "
       style={{ backgroundImage: `url('./hero.jpg')` }}
     >
-      <div className="container mx-auto flex md:flex-row flex-col pt-20 text-black">
+      <div className="container mx-auto px-5  flex md:flex-row flex-col pt-20 text-black">
         <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center  text-center">
           {/* <img
             src="./social_me_icon_lg.png"
@@ -17,7 +17,7 @@ const Hero = () => {
           <p className="font-roboto mb-8 text-6xl leading-relaxed  font-thin">
             Mental Health Gone Mobile
           </p>
-          <p className="font-roboto mb-8 lg:w-1/2 text-2xl font-bold leading-relaxed">
+          <p className="font-roboto mb-5 lg:w-1/2 text-xl mx-5 font-bold leading-relaxed">
             'So ME' (Social Me) Mobile Therapy uses renovated
             buses-turned-mobile-therapy-offices so that you can get
             <span className="font-extrabold">
