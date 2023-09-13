@@ -63,9 +63,9 @@ const WhoWeAre = () => {
               </div>
             </div>
             <div className="text-2xl my-5 flex flex-col items-center ">
-              <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
+              {/* <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mb-5 flex-shrink-0">
                 <img src="./MountainCloudBlue.svg" alt="Sun Flower" />
-              </div>
+              </div> */}
               <div className="">
                 <div className="p-10">
                   <button
