@@ -7,7 +7,7 @@ const Hero = () => {
       className="bg-cover bg-center flex h-screen "
       style={{ backgroundImage: `url('./road.jpg')` }}
     >
-      <div className="container mx-auto px-5 flex md:flex-row flex-col items-center text-center text-white">
+      <div className="container mx-auto px-5 flex md:flex-row flex-col items-center text-center pt-5 text-white">
         <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center text-center">
           {/* <img
             src="./social_me_icon_lg.png"
