@@ -54,7 +54,7 @@ export default function Modal({ open, onClose, activeBullet }) {
     } else if (activeBullet === 9) {
       return {
         description:
-          "Social ME’s mission is to improve access to quality mental health services by helping individuals and communities overcome their unique barriers to care. We believe everyone deserves the opportunity to move from “surviving to thriving,” regardless of their location or circumstances.",
+          'Social ME\'s mission is to improve access to quality mental health services. We believe everyone deserves the opportunity to move from "Surviving to Thriving".',
       };
     } else {
       return {
