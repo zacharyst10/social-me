@@ -125,8 +125,8 @@ const WhatIsSoMe = () => {
                         />
                       </svg>
                       <div className="flex-1 text-left">
-                        Virtual reality, hands-on, and real-time exposures with
-                        personalized coaching
+                        Personalized exposures with hands-on and real-time
+                        coaching
                       </div>
                     </div>
                     <PlusCircleIcon className="h-5 w-5 flex-shrink-0" />
@@ -156,8 +156,8 @@ const WhatIsSoMe = () => {
                         />
                       </svg>
                       <div className="flex-1 text-left">
-                        Live skills calls and personalized accountability
-                        coaching to foster real change
+                        Live behavioral coaching that includes personalized
+                        accountability & self efficacy skills building
                       </div>
                     </div>
                     <PlusCircleIcon className="h-5 w-5 flex-shrink-0" />
@@ -170,7 +170,7 @@ const WhatIsSoMe = () => {
             <img
               className="object-cover object-center rounded-xl"
               alt="An illustrative image describing 'So ME' therapy"
-              src="./leah-with-dog-and-bus.jpg"
+              src="./mom-and-son-by-bus.jpg"
             />
           </div>
         </div>
