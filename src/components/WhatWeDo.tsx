@@ -32,8 +32,13 @@ const WhatWeDo = () => {
               roadblocks for both youth and adults who are struggling with
               anxiety & obsessive-compulsive disorders.
             </p>
-            <p className="font-source-sans mb-8 leading-relaxed"> 
-            We understand how difficult life can be when struggling to find services for treatment of Anxiety and OCD.  That's why we make it as easy as possible to receive professional services. We put your needs first and meet you in the comfort of your own home either in person or virtually.  Our therapists and behavioral coaches are licensed through the State of Utah. Background checks are conducted on all service providers to add an additional layer of safety. 
+            <p className="font-source-sans mb-8 leading-relaxed">
+              We understand how difficult life can be when struggling to find
+              services for treatment of Anxiety and OCD. That's why we make it
+              as easy as possible to receive professional services. We put your
+              needs first and meet you in the comfort of your own home either in
+              person or virtually. Our therapists and behavioral coaches are
+              licensed through the State of Utah.
             </p>
             <h1 className="font-roboto title-font  sm:text-2xl text-3xl mb-7 font-medium text-custom-orange">
               We bring therapy to...

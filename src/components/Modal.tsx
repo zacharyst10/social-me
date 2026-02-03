@@ -29,9 +29,9 @@ export default function Modal({ open, onClose, activeBullet }) {
       };
     } else if (activeBullet === 5) {
       return {
-        title: "Youth and adults wanting innovating therapy ",
+        title: "Youth and adults wanting innovative therapy",
         description:
-          " In 2017, the National Institute of Mental Health estimated that 1.2% of U.S. adults had OCD. Around 19.1% of U.S. adults had an anxiety disorder in the past year, according to a 2019 report.",
+          "According to NAMI, over 42 million U.S. adults have an anxiety disorder. The IOCDF reports that approximately 1 in 40 adults—about 8.2 million people—have OCD. Among children and teens, at least 1 in 100 are affected by OCD.",
       };
     } else if (activeBullet === 6) {
       return {

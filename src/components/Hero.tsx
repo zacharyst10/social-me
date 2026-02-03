@@ -19,9 +19,9 @@ const Hero = () => {
             Mental Health Therapy Gone Mobile
           </p>
           <p className="font-roboto mb-5 lg:w-1/2 text-lg mx-5 text-white font-bold leading-relaxed">
-            'So ME' (Social Me) Mobile Therapy uses renovated
-            buses-turned-mobile-therapy-offices so that you can get quality
-            mental health treatment wherever you need it.
+            'So ME' (Social Me) Mobile Therapy brings quality mental health
+            treatment to you—in the comfort of your own home or out in the
+            community where real-life change happens.
           </p>
 
           <Link to="Contact" smooth={true} duration={500}>
