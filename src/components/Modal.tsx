@@ -17,9 +17,9 @@ export default function Modal({ open, onClose, activeBullet }) {
       };
     } else if (activeBullet === 3) {
       return {
-        title: "Virtual Reality?",
+        title: "Personalized Exposures",
         description:
-          "Virtual Reality (VR) therapy uses immersive virtual environments to confront sources of distress and has proven to be exceptionally effective for phobias and trauma therapy.",
+          "Exposure therapy is most effective when tailored to your unique needs and fears. Our personalized approach uses hands-on, real-time exposures with dedicated coaching to help you confront and overcome sources of distress in a supportive environment.",
       };
     } else if (activeBullet === 4) {
       return {
@@ -29,9 +29,9 @@ export default function Modal({ open, onClose, activeBullet }) {
       };
     } else if (activeBullet === 5) {
       return {
-        title: "Youth and adults wanting innovating therapy ",
+        title: "Youth and adults wanting innovative therapy",
         description:
-          " In 2017, the National Institute of Mental Health estimated that 1.2% of U.S. adults had OCD. Around 19.1% of U.S. adults had an anxiety disorder in the past year, according to a 2019 report.",
+          "According to NAMI, over 42 million U.S. adults have an anxiety disorder. The IOCDF reports that approximately 1 in 40 adults—about 8.2 million people—have OCD. Among children and teens, at least 1 in 100 are affected by OCD.",
       };
     } else if (activeBullet === 6) {
       return {
@@ -41,9 +41,9 @@ export default function Modal({ open, onClose, activeBullet }) {
       };
     } else if (activeBullet === 7) {
       return {
-        title: "Parents seeking support during perinatal care",
+        title: "PANDAS/PANS Treatment Support",
         description:
-          "Anxiety disorders during pregnancy and the post-termination period are prevalent, with rates of up to 15% reported in some studies. OCD can sometimes become exacerbated during or shortly after pregnancy, although comprehensive statistics are limited. ",
+          "PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcal Infections) and PANS (Pediatric Acute-onset Neuropsychiatric Syndrome) can cause sudden onset of OCD, anxiety, and other neuropsychiatric symptoms in children. We provide therapeutic support to complement medical treatment protocols.",
       };
     } else if (activeBullet === 8) {
       return {

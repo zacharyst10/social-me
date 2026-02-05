@@ -20,7 +20,7 @@ const WhatWeDo = () => {
             <img
               className="object-cover object-center rounded-xl"
               alt="hero"
-              src="./walking-towards.jpg"
+              src="./leah-blue-dress.jpg"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center order-2 md:order-2">
@@ -33,13 +33,12 @@ const WhatWeDo = () => {
               anxiety & obsessive-compulsive disorders.
             </p>
             <p className="font-source-sans mb-8 leading-relaxed">
-              We understand how difficult life can be when you're struggling
-              with mental health issues. That's why we've created a mobile
-              therapy clinic that brings the treatment to you. Our buses are
-              equipped with everything you need to get the help you deserve,
-              including a private office, virtual exposure technology, and
-              trained professionals. We also offer telehealth services for those
-              who prefer to meet with their therapist virtually.
+              We understand how difficult life can be when struggling to find
+              services for treatment of Anxiety and OCD. That's why we make it
+              as easy as possible to receive professional services. We put your
+              needs first and meet you in the comfort of your own home either in
+              person or virtually. Our therapists and behavioral coaches are
+              licensed through the State of Utah.
             </p>
             <h1 className="font-roboto title-font  sm:text-2xl text-3xl mb-7 font-medium text-custom-orange">
               We bring therapy to...
@@ -133,8 +132,8 @@ const WhatWeDo = () => {
                       />
                     </svg>
                     <div className=" text-left">
-                      New or established parents who need additional support
-                      through all phases of perinatal care
+                      Patients looking for services to support treatment
+                      protocols for PANDAS/PANS interventions
                     </div>
                   </div>
                   <PlusCircleIcon className="h-5 w-5 flex-shrink-0" />
